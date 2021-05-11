@@ -1,0 +1,168 @@
+*{
+    background-color: #181818;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav.list{
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.list div.logo{
+    /* border: 1px solid green; */
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+    background-image: url(../img/logow.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+nav.list ul.listselect li{
+    list-style: none;
+    margin-top: 20px;
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+nav.list ul.listselect li > a{
+    /* border: 1px solid green; */
+    background: transparent;
+    color: #EFEFEF;
+    font-family: "Dosis";
+    text-decoration: none;
+    display: flex;
+
+}
+
+nav.list ul.listselect li:last-child{
+    margin-right: 80px;
+}
+
+nav.list ul.listselect li > a:hover{
+    color:rgb(243,72,65);
+}
+
+div.newsname{
+    /* border: 1px solid yellow; */
+    width: 1200px;
+    height: 200px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+div.newsname div.date{
+    /* border: 1px solid red; */
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 80px;
+    font-size: 30px;
+    font-family: "Dosis";
+    color: #EFEFEF;
+}
+
+div.newsname div.line{
+    border-left: 2px solid #EFEFEF;
+    height: 100px;
+}
+
+div.newsname div.headline{
+    /* border: 1px solid green; */
+    height: 120px;
+    width: 900px;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: "Dosis";
+    color: rgb(243,72,65);
+}
+
+div.mainnews{
+    /* border: 1px solid yellow; */
+    width: 1000px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+}
+
+div.mainnews div.newsimg{
+    /* border: 1px solid blue; */
+    width: 500px;
+    height: 400px;
+    margin-top: 75px;
+    background-image: url(../img/news/12.jpeg);
+    background-size: 100%;
+}
+
+div.mainnews div.content{
+    margin-top: 50px;
+}
+
+div.mainnews div.content > p{
+    /* border: 1px solid blue; */
+    width: 450px;
+    font-size: 20px;
+    margin-left: 50px;
+    color: #EFEFEF;
+    font-family: "Dosis";
+}
+
+div.mainnews div.content div.back a{
+    /* border: 1px solid blue; */
+    font-size: 20px;
+    margin-left: 50px;
+    color: rgb(243,72,65);
+    font-family: "Dosis";
+    /* text-decoration: none; */
+}
+
+div.back{
+    /* border: 1px solid red; */
+    width: 450px;
+    /* margin-left: 50px; */
+    display: flex;
+    align-items: center;
+}
+
+@keyframes arrow{
+    0% {
+        left: 10px;
+        opacity: 1;
+    }
+    25% {
+        left: 15px;
+        opacity: .5;
+    }
+    50% {
+        left: 10px;
+        opacity: 1;
+    }
+    75% {
+        left: 15px;
+        opacity: .5;
+    }
+    100% {
+        left: 10px;
+        opacity: 1;
+    }
+}
+
+div.mainnews div.content div.arrow{
+    /* border: 1px solid green; */
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Icon\ awesome-arrow-right.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 10px;
+    animation-name: arrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

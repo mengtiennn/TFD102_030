@@ -1,0 +1,492 @@
+*{
+    background-color: #181818;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav.list{
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.list div.logo{
+    /* border: 1px solid green; */
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+    background-image: url(../img/logow.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+nav.list ul.listselect li{
+    list-style: none;
+    margin-top: 20px;
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+nav.list ul.listselect li > a{
+    /* border: 1px solid green; */
+    background: transparent;
+    color: #EFEFEF;
+    font-family: "Dosis";
+    text-decoration: none;
+    display: flex;
+
+}
+
+nav.list ul.listselect li:last-child{
+    margin-right: 80px;
+}
+
+nav.list ul.listselect li > a:hover{
+    color:rgb(243,72,65);
+}
+
+div.productbanner{
+    /* border: 1px solid yellow; */
+    margin-top: 20px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+div.productbanner div.pdimg1{
+    /* width: 550px; */
+    width: 180px;
+    height: 350px;
+    background-color: aqua;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../img/product/selectbanner/8.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg2{
+    /* width: 550px; */
+    width: 180px;
+    height: 350px;
+    background-color: darkblue;
+    position: absolute;
+    left: 180px;
+    z-index: 3;
+    background-image: url(../img/product/selectbanner/3.png);
+    background-repeat: no-repeat;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg3{
+    /* width: 550px; */
+    width: 180px;
+    height: 350px;
+    background-color: darkcyan;
+    position: absolute;
+    left: 330px;
+    z-index: 4;
+    background-image: url(../img/product/selectbanner/4.png);
+    background-repeat: no-repeat;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg4{
+    /* width: 550px; */
+    width: 180px;
+    height: 350px;
+    background-color: yellow;
+    position: absolute;
+    left: 480px;
+    z-index: 5;
+    background-image: url(../img/product/selectbanner/2.png);
+    background-repeat: no-repeat;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg5{
+    /* width: 550px; */
+    width: 600px;
+    height: 350px;
+    background-color: yellowgreen;
+    position: absolute;
+    right: 0;
+    z-index: 6;
+    background-image: url(../img/product/selectbanner/7.png);
+    background-repeat: no-repeat;
+    transition: all 2s;
+}
+
+@keyframes bigger{
+    0% {
+        width: 180px;
+    }
+
+    100%{
+        width: 600px;
+    }
+}
+
+/* div.productbanner div.pdimg1{
+    border: 1px solid red;
+    width: 180px;
+    transition: width .5s;
+} */
+
+div.productbanner div.pdimg1:hover{
+    animation-name: bigger;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    width: 600px;
+    z-index: 10;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg2:hover{
+    animation-name: bigger;
+    animation-duration: .1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    z-index: 10;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg3:hover{
+    animation-name: bigger;
+    animation-duration: .1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    z-index: 10;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg4:hover{
+    animation-name: bigger;
+    animation-duration: .1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    z-index: 10;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg5:hover{
+    animation-name: bigger;
+    animation-duration: .1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg1:hover ~ div.pdimg2{
+    transform: translateX(420px);
+    z-index: 11;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg1:hover ~ div.pdimg3{
+    transform: translateX(420px);
+    z-index: 12;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg1:hover ~ div.pdimg4{
+    transform: translateX(420px);
+    z-index: 13;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg1:hover ~ div.pdimg5{
+    width: 180px;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg2:hover ~ div.pdimg3{
+    transform: translateX(420px);
+    z-index: 12;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg2:hover ~ div.pdimg4{
+    transform: translateX(420px);
+    z-index: 13;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg2:hover ~ div.pdimg5{
+    width: 180px;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg3:hover ~ div.pdimg4{
+    transform: translateX(420px);
+    z-index: 12;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg3:hover ~ div.pdimg5{
+    width: 180px;
+    transition: all 2s;
+}
+
+div.productbanner div.pdimg4:hover ~ div.pdimg5{
+    width: 180px;
+    transition: all 2s; 
+}
+
+
+/* product img */
+
+div.productimg1{
+    /* border: 2px solid green; */
+    width: 1200px;
+    height: 250px;
+    margin-top: 100px;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+div.productimg1 > div{
+    /* border: 1px solid yellow; */
+    width: 250px;
+    height: 250px;
+}
+
+div.productimg1 > div:first-child{
+    margin-left: 100px;
+}
+
+div.productimg1 > div:last-child{
+    margin-right: 100px;
+}
+
+div.productimg1 div.firitem1{
+    background-image: url(../img/product/selectimg/1.png);
+}
+
+div.productimg1 div.firitem2{
+    background-image: url(../img/product/selectimg/2.png);
+}
+
+div.productimg1 div.firitem3{
+    background-image: url(../img/product/selectimg/3.png);
+}
+
+div.productimg1 > div:hover{
+    opacity: .3;
+}
+
+div.price1{
+    /* border: 1px solid red; */
+    width: 1200px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+div.price1 > div{
+    /* border: 1px solid blue; */
+    width: 200px;
+    height: 200px;
+}
+
+div.price1 > div:first-child{
+    margin-left: 125px;
+}
+
+div.price1 > div:last-child{
+    margin-right: 125px;
+}
+
+div.price1 div.firprice1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.price1 div.firprice1 > div{
+    /* border: 1px solid orange; */
+    width: 150px;
+    margin-bottom: 20px;
+    color:#EFEFEF;
+    text-align: center;
+    font-family: "Dosis";
+}
+
+div.price1 div.firprice1 > div:first-child{
+    border-bottom: 2px solid gray;
+}
+
+div.price1 div.firprice1 > div:nth-child(2){
+    font-size: 30px;
+}
+
+div.price1 div.firprice2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.price1 div.firprice2 > div{
+    /* border: 1px solid orange; */
+    width: 150px;
+    margin-bottom: 20px;
+    color:#EFEFEF;
+    text-align: center;
+    font-family: "Dosis";
+}
+
+div.price1 div.firprice2 > div:first-child{
+    border-bottom: 2px solid gray;
+}
+
+div.price1 div.firprice2 > div:nth-child(2){
+    font-size: 30px;
+}
+
+div.price1 div.firprice3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.price1 div.firprice3 > div{
+    /* border: 1px solid orange; */
+    width: 150px;
+    margin-bottom: 20px;
+    color:#EFEFEF;
+    text-align: center;
+    font-family: "Dosis";
+}
+
+div.price1 div.firprice3 > div:first-child{
+    border-bottom: 2px solid gray;
+}
+
+div.price1 div.firprice3 > div:nth-child(2){
+    font-size: 30px;
+}
+
+/* second */
+
+div.productimg2{
+    /* border: 2px solid green; */
+    width: 1200px;
+    height: 250px;
+    margin-top: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+div.productimg2 > div{
+    /* border: 1px solid yellow; */
+    width: 250px;
+    height: 250px;
+}
+
+div.productimg2 > div:first-child{
+    margin-left: 100px;
+}
+
+div.productimg2 > div:last-child{
+    margin-right: 100px;
+}
+
+div.productimg2 div.secitem1{
+    background-image: url(../img/product/selectimg/4.png);
+}
+
+div.productimg2 div.secitem2{
+    background-image: url(../img/product/selectimg/5.png);
+}
+
+div.productimg2 div.secitem3{
+    background-image: url(../img/product/selectimg/6.png);
+}
+
+/* third */
+
+div.productimg3{
+    /* border: 2px solid green; */
+    width: 1200px;
+    height: 250px;
+    margin-top: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+div.productimg3 > div{
+    /* border: 1px solid yellow; */
+    width: 250px;
+    height: 250px;
+}
+
+div.productimg3 > div:first-child{
+    margin-left: 100px;
+}
+
+div.productimg3 > div:last-child{
+    margin-right: 100px;
+}
+
+div.productimg3 div.thiritem1{
+    background-image: url(../img/product/selectimg/7.png);
+}
+
+div.productimg3 div.thiritem2{
+    background-image: url(../img/product/selectimg/8.png);
+}
+
+div.productimg3 div.thiritem3{
+    background-image: url(../img/product/selectimg/9.png);
+}
+
+/* fourth */
+
+div.productimg4{
+    /* border: 2px solid green; */
+    width: 1200px;
+    height: 250px;
+    margin-top: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+div.productimg4 > div{
+    /* border: 1px solid yellow; */
+    width: 250px;
+    height: 250px;
+}
+
+div.productimg4 > div:first-child{
+    margin-left: 100px;
+}
+
+div.productimg4 > div:last-child{
+    margin-right: 100px;
+}
+
+div.productimg4 div.fouritem1{
+    background-image: url(../img/product/selectimg/10.png);
+}
+
+div.productimg4 div.fouritem2{
+    background-image: url(../img/product/selectimg/11.png);
+}
+
+div.productimg4 div.fouritem3{
+    background-image: url(../img/product/selectimg/12.png);
+}
