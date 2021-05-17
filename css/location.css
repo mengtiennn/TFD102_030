@@ -1,0 +1,383 @@
+*{
+    background-color: #181818;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav.list{
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.list div.logo{
+    /* border: 1px solid green; */
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+    background-image: url(../img/logow.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+nav.list ul.listselect li{
+    list-style: none;
+    margin-top: 20px;
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+nav.list ul.listselect li > a{
+    /* border: 1px solid green; */
+    background: transparent;
+    color: #EFEFEF;
+    font-family: "Dosis";
+    text-decoration: none;
+    display: flex;
+
+}
+
+nav.list ul.listselect li:last-child{
+    margin-right: 80px;
+}
+
+nav.list ul.listselect li > a:hover{
+    color:rgb(243,72,65);
+}
+
+div.mapimg{
+    /* border: 1px solid yellow; */
+    width: 450px;
+    height: 550px;
+    margin: 20px auto;
+}
+
+@keyframes clickme{
+    0%{
+        fill: rgb(243,72,65);
+    }
+    50%{
+        fill: #EFEFEF;
+    }
+    100%{
+        fill: rgb(243,72,65);
+    }
+}
+
+svg path#path2513{
+    animation-name: clickme;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+svg path#path2525{
+    animation-name: clickme;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+svg path#path2535{
+    animation-name: clickme;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+svg path#path2517{
+    animation-name: clickme;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+#path2513:hover{
+    opacity: .3;
+}
+
+#path2515:hover{
+    opacity: .3;
+}
+
+#path2517:hover{
+    opacity: .3;
+}
+
+#path2519:hover{
+    opacity: .3;
+}
+
+#path2521:hover{
+    opacity: .3;
+}
+
+#path2523:hover{
+    opacity: .3;
+}
+
+#path2525:hover{
+    opacity: .3;
+}
+
+#path2527:hover{
+    opacity: .3;
+}
+
+#path2529:hover{
+    opacity: .3;
+}
+
+#path2531:hover{
+    opacity: .3;
+}
+
+#path2533:hover{
+    opacity: .3;
+}
+
+#path2535:hover{
+    opacity: .3;
+}
+
+div.shopcontent{
+    /* border: 1px solid green; */
+    background-image: url(../img/1.jpg);
+    background-size: 100%;
+    width: 220px;
+    height: 150px;
+    /* background: #EFEFEF; */
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+
+div.shopcontent h1{
+    background: transparent;
+    position: absolute;
+    top: 110px;
+    color: rgb(243,72,65);
+    font-family: "Anton";
+}
+
+div.shopcontent span{
+    background: transparent;
+    position: absolute;
+    top: 170px;
+    color: #EFEFEF;
+    font-family: "Anton";
+}
+
+div.shopcontent2{
+    /* border: 1px solid yellow; */
+    background-image: url(../img/5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 220px;
+    height: 150px;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+
+div.shopcontent2 h1{
+    background: transparent;
+    position: absolute;
+    top: 80px;
+    color: rgb(243,72,65);
+    font-family: "Anton";
+}
+
+div.shopcontent2 span{
+    background: transparent;
+    position: absolute;
+    top: 140px;
+    color: #EFEFEF;
+    font-family: "Anton";
+}
+
+div.shopcontent3{
+    /* border: 1px solid yellow; */
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 220px;
+    height: 150px;
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+}
+
+div.shopcontent3 h1{
+    background: transparent;
+    position: absolute;
+    top: 100px;
+    color: rgb(243,72,65);
+    font-family: "Anton";
+}
+
+div.shopcontent3 span{
+    background: transparent;
+    position: absolute;
+    top: 160px;
+    color: #EFEFEF;
+    font-family: "Anton";
+}
+
+div.shopcontent4{
+    /* border: 1px solid yellow; */
+    background-image: url(../img/7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 220px;
+    height: 150px;
+    position: absolute;
+    bottom: 350px;
+    right: 250px;
+}
+
+div.shopcontent4 h1{
+    background: transparent;
+    position: absolute;
+    top: 110px;
+    color: rgb(243,72,65);
+    font-family: "Anton";
+}
+
+div.shopcontent4 span{
+    background: transparent;
+    position: absolute;
+    top: 170px;
+    color: #EFEFEF;
+    font-family: "Anton";
+}
+
+div.shopcontent div.line1{
+    border-top: 2px solid rgb(243,72,65);
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    left: 220px;
+    top: 80px;
+    transform: rotate(15deg);
+    background: transparent;
+}
+
+div.shopcontent2 div.line2{
+    border-top: 2px solid rgb(243,72,65);
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    left: 240px;
+    top: 80px;
+    background: transparent;
+}
+
+div.shopcontent3 div.line3{
+    border-bottom: 2px solid rgb(243,72,65);
+    width: 250px;
+    height: 100px;
+    transform: rotate(340deg);
+    position: absolute;
+    right: 250px;
+    top: 100px;
+    background: transparent;
+}
+
+div.shopcontent4 div.line4{
+    border-bottom: 2px solid rgb(243,72,65);
+    width: 70px;
+    height: 100px;
+    transform: rotate(330deg);
+    position: absolute;
+    right: 250px;
+    top: 100px;
+    background: transparent;
+}
+
+div.shop1{
+    /* border: 1px solid yellow; */
+    width: 1200px;
+    height: 300px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.shop1 div.shopimg{
+    /* border: 1px solid green; */
+    width: 500px;
+    height: 280px;
+    background-image: url(../img/1.jpg);
+    background-size: 100%;
+}
+
+div.shop1 div.shopint{
+    /* border: 1px solid green; */
+    width: 500px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.shop1 div.shopint div.shopname{
+    border-left: 2px solid #EFEFEF;
+    width: 400px;
+    height: 50px;
+    font-size: 30px;
+    font-family: "Anton";
+    color: rgb(243,72,65);
+    padding-left: 12px;
+}
+
+div.shop1 div.shopint div.shopad{
+    border-left: 2px solid #EFEFEF;
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    font-family: "Dosis";
+    color: #EFEFEF;
+    padding-left: 12px;
+}
+
+div.shop1 div.shopint div.shopcon{
+    /* border: 1px solid blue; */
+    width: 400px;
+    height: 100px;
+    font-size: 16px;
+    font-family: "Dosis";
+    color: #EFEFEF;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+
+div.shop1 div.shopimg2{
+    /* border: 1px solid green; */
+    width: 500px;
+    height: 280px;
+    background-image: url(../img/3.jpg);
+    background-size: 100%;
+}
+
+div.shop1 div.shopimg3{
+    /* border: 1px solid green; */
+    width: 500px;
+    height: 280px;
+    background-image: url(../img/5.jpg);
+    background-size: 100%;
+}
+
+div.shop1 div.shopimg4{
+    /* border: 1px solid green; */
+    width: 500px;
+    height: 280px;
+    background-image: url(../img/7.jpg);
+    background-size: 100%;
+}

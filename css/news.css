@@ -49,31 +49,301 @@ nav.list ul.listselect li > a:hover{
     color:rgb(243,72,65);
 }
 
-section.videobanner{
-    border: 1px solid yellow;
-    width: 1200px;
-    height: 400px;
-    margin: 0 auto;
-}
-
-section.videobanner video{
-    display: inline-block;
+section.imgbanner{
+    /* border: 1px solid yellow; */
     width: 100%;
-    bottom: 0;
+    height: 400px;
+    margin: 30px auto;
+    position: absolute;
+    overflow: hidden;
 }
 
-div.news1{
+@keyframes zoomout{
+    100%{
+        width: 100%;
+    }
+}
+
+section.imgbanner div.banner1 img{
+    width: 120%;
+    position: absolute;
+    /* transform: translate(50px , -200px); */
+    animation-name: zoomout;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section.imgbanner div.banner1 div.textcontent{
+    width: 600px;
+    height: 300px;
+    color:#EFEFEF;
+    position: absolute;
+    top: 100px;
+    background: transparent;
+    font-family: "Dosis";
+}
+
+section.imgbanner div.banner1 div.textcontent h1{
+    background: transparent;
+    margin-left: 80px;
+}
+
+section.imgbanner div.banner1 div.textcontent div{
+    width: 100px;
+    height: 3px;
+    background: rgb(243,72,65);
+    margin-left: 80px;
+}
+
+section.imgbanner div.banner1 div.textcontent p{
+    background: transparent;
+    margin-left: 80px;
+}
+
+
+section.imgbanner div.banner2 img{
+    width: 120%;
+    position: absolute;
+    /* transform: translate(50px , -200px); */
+    animation-name: zoomout;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section.imgbanner div.banner2 div.textcontent{
+    width: 600px;
+    height: 300px;
+    color:#EFEFEF;
+    position: absolute;
+    top: 100px;
+    background: transparent;
+    font-family: "Dosis";
+}
+
+section.imgbanner div.banner2 div.textcontent h1{
+    background: transparent;
+    margin-left: 80px;
+}
+
+section.imgbanner div.banner2 div.textcontent div{
+    width: 100px;
+    height: 3px;
+    background: rgb(243,72,65);
+    margin-left: 80px;
+}
+
+section.imgbanner div.banner2 div.textcontent p{
+    background: transparent;
+    margin-left: 80px;
+}
+
+/* section.imgbanner div.banner3{
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+} */
+
+section.imgbanner div.banner3 img{
+    width: 120%;
+    position: absolute;
+    /* transform: translate(50px , -200px); */
+    animation-name: zoomout;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section.imgbanner div.banner3 div.textcontent{
+    width: 600px;
+    height: 300px;
+    color:#EFEFEF;
+    position: absolute;
+    top: 100px;
+    background: transparent;
+    font-family: "Dosis";
+}
+
+section.imgbanner div.banner3 div.textcontent h1{
+    background: transparent;
+    margin-left: 80px;
+}
+
+section.imgbanner div.banner3 div.textcontent div{
+    width: 100px;
+    height: 3px;
+    background: rgb(243,72,65);
+    margin-left: 80px;
+}
+
+section.imgbanner div.banner3 div.textcontent p{
+    background: transparent;
+    margin-left: 80px;
+}
+
+section.imgbanner div.banner4 img{
+    width: 120%;
+    position: absolute;
+    /* transform: translate(50px , -200px); */
+    animation-name: zoomout;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section.imgbanner div.banner4 div.textcontent{
+    width: 600px;
+    height: 300px;
+    color:#EFEFEF;
+    position: absolute;
+    top: 100px;
+    background: transparent;
+    font-family: "Dosis";
+}
+
+section.imgbanner div.banner4 div.textcontent h1{
+    background: transparent;
+    margin-left: 80px;
+}
+
+section.imgbanner div.banner4 div.textcontent div{
+    width: 100px;
+    height: 3px;
+    background: rgb(243,72,65);
+    margin-left: 80px;
+}
+
+section.imgbanner div.banner4 div.textcontent p{
+    background: transparent;
+    margin-left: 80px;
+}
+
+@keyframes slide1{
+    0%{
+        visibility: visible;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+@keyframes slide2{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: visible;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+@keyframes slide3{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+@keyframes slide4{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+section.imgbanner div.banner1{
+    animation-name: slide1;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section.imgbanner div.banner2{
+    animation-name: slide2;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section.imgbanner div.banner3{
+    animation-name: slide3;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section.imgbanner div.banner4{
+    animation-name: slide4;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div.allnews{
+    /* border: 1px solid red; */
+    transform: translateY(450px);
+}
+
+
+a.news1{
     /* border: 1px solid blue; */
     width: 1000px;
     height: 100px;
-    margin: 80px auto;
+    margin: 20px auto;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
+a.news1:hover{
+    background-color: rgb(243,72,65);
+}
 
+a.news1:hover .content2{
+    color: #EFEFEF;
+}
 
-div.news1 div.content1{
+a.news1 div.content1{
     /* border: 1px solid orange;  */
     width: 200px;
     height: 30px;
@@ -82,9 +352,10 @@ div.news1 div.content1{
     font-family: "Dosis";
     text-align: center;
     color:#EFEFEF;
+    background: transparent;
 }
 
-div.news1 div.content2{
+a.news1 div.content2{
     /* border: 1px solid red;  */
     width: 100px;
     height: 50px;
@@ -93,16 +364,17 @@ div.news1 div.content2{
     font-family: "Dosis";
     text-align: center;
     color: rgb(243,72,65);
-
+    background: transparent;
 }
 
-div.news1 div.line1{
+a.news1 div.line1{
     border-left: 2px solid #EFEFEF;
     height: 50px;
-    margin-right: 5px; 
+    margin-right: 5px;
+    background: transparent;
 }
 
-div.news1 div.content3{
+a.news1 div.content3{
     /* border: 1px solid green;  */
     width: 700px;
     height: 30px;
@@ -110,6 +382,7 @@ div.news1 div.content3{
     font-family: "Dosis";
     text-align: center;
     color: #EFEFEF;
+    background: transparent;
 }
 
 /* div.exhibition1 div.content1{

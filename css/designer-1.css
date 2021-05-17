@@ -1,0 +1,259 @@
+*{
+    background-color: #181818;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav.list{
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.list div.logo{
+    /* border: 1px solid green; */
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+    background-image: url(../img/logow.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+nav.list ul.listselect li{
+    list-style: none;
+    margin-top: 20px;
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+nav.list ul.listselect li > a{
+    /* border: 1px solid green; */
+    background: transparent;
+    color: #EFEFEF;
+    font-family: "Dosis";
+    text-decoration: none;
+    display: flex;
+
+}
+
+nav.list ul.listselect li:last-child{
+    margin-right: 80px;
+}
+
+nav.list ul.listselect li > a:hover{
+    color:rgb(243,72,65);
+}
+
+div.dtitle{
+    border: 1px solid yellow;
+    width: 1200px;
+    height: 450px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.dcontent{
+    border: 1px solid red;
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+
+div.dname{
+    /* border: 1px solid green; */
+    width: 400px;
+    height: 100px;
+    margin-top: 25px;
+    font-family: "Anton";
+    font-size: 50px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #EFEFEF;
+}
+
+div.dname span{
+    border-top: 3px solid rgb(243,72,65);
+    width: 100px;
+}
+
+div.socialicon{
+    /* border: 1px solid blue; */
+    width: 400px;   
+    height: 100px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+div.socialicon > a{
+    /* border: 1px solid orange; */
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+div.socialicon a.fbicon{
+    background-image: url(../img/fb.png);
+    background-repeat: no-repeat;
+}
+
+div.socialicon a.twicon{
+    background-image: url(../img/tw.png);
+    background-repeat: no-repeat;
+}
+
+div.socialicon a.igicon{
+    background-image: url(../img/ig.png);
+    background-repeat: no-repeat;
+}
+
+div.socialicon a.fbicon:hover{
+    opacity: .3;
+}
+
+div.socialicon a.twicon:hover{
+    opacity: .3;
+}
+
+div.socialicon a.igicon:hover{
+    opacity: .3;
+}
+
+div.dimg{
+    /* border: 1px solid orange; */
+    width: 300px;
+    height: 400px;
+    background-image: url(../img/designer/5.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div.about{
+    /* border: 1px solid blue; */
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.about div.atitle{
+    /* border: 1px solid green; */
+    width: 600px;
+    height: 100px;
+    background: transparent;
+    margin-top: 50px;
+    font-family: "Dosis";
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.about div.atitle span{
+    border-top: 3px solid rgb(243,72,65);
+    width: 200px;
+    background: transparent;
+}
+
+div.about div.acontent{
+    /* border: 1px solid orange; */
+    width: 600px;
+    height: 400px;
+    background: transparent;
+    font-family: "Dosis";
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+div.collection{
+    border: 1px solid yellow;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* div.collection span{
+    border: 1px solid rgb(243,72,65);
+    width: 120px;
+    height: 20px; 
+    background: tomato;
+    position: relative;
+    top: -70px;
+    left: 180px;
+}
+
+div.collection div.ctitle{
+    border: 1px solid orange;
+    width: 400px;
+    height: 100px;
+    font-family: "Anton";
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    z-index: 5;
+    background: transparent;
+    color: #EFEFEF;
+} */
+
+div.collection div.slider{
+    border: 1px solid green;
+    width: 1200px;
+    height: 300px;
+}
+
+div.slider div.slider-inner div.slide-img a{
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+div.slider{
+    position: absolute;
+    overflow: hidden;
+}
+
+div.slider-inner{
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    pointer-events: none;
+}
+
+div.slide-img{
+    height: 100%;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 3rem;
+}
+
+div.slider div.slider-inner div.slide-img a{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/1.jpg);
+    color: #EFEFEF;
+}
+
+div.one{
+    background-image: url(../img/product/josh/4.jpg);
+    background-size: 100%;
+}

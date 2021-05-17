@@ -160,7 +160,7 @@ div.rightside div.nine{
     background-image: url(../img/photo/31.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    /* background: transparent; */
+    background: transparent;
 }
 
 div.rightside div.ten{
@@ -175,7 +175,7 @@ div.rightside div.eleven{
     grid-area: a11;
     border-right: 3px solid #EFEFEF;
     width: 20px;
-    transform: translateX(19px);
+    transform: translateX(20px);
 }
 
 div.leftside{
@@ -253,11 +253,12 @@ div.leftside div.sixteen{
 }
 
 div.longcontent{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 1000px;
     height: 1000px;
     margin: 0 auto;
     display: flex;
+    font-family: "Dosis";
 }
 
 div.longcontent div.leftcon{
@@ -267,17 +268,38 @@ div.longcontent div.leftcon{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    color:#EFEFEF;
 }
 
-div.longcontent div.leftcon > div{
-    border: 1px solid orange;
+div.longcontent div.leftcon div.leftone{
+    /* border: 1px solid orange; */
+    width: 500px;
+    height: 100px;
+    margin-top: 110px;
+    /* background-color: rgb(243,72,65); */
+}
+
+div.longcontent div.leftcon div.lefttwo{
+    /* border: 1px solid orange; */
     width: 400px;
-    height: 200px;
-    margin-top: 50px;
+    height: 120px;
+    margin-top: 150px;
+    margin-right: 15px;
+    /* background-color: rgb(243,72,65); */
+
+}
+
+div.longcontent div.leftcon div.leftthree{
+    /* border: 1px solid orange; */
+    width: 600px;
+    height: 120px;
+    margin-top: 130px;
+    margin-right: 15px;
+    /* background-color: rgb(243,72,65); */
 }
 
 div.longcontent div.rightcon{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 250px;
     height: 1000px;
     display: flex;
@@ -286,14 +308,28 @@ div.longcontent div.rightcon{
 }
 
 div.longcontent div.rightcon > div{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 200px;
     height: 200px;
     margin-top: 50px;
+    display: flex;
+    align-items: center;
 }
 
 div.longcontent div.rightcon > div > div{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 100px;
-    height: 100px;
+    height: 45px;
+    text-align: center;
+}
+
+div.longcontent div.rightcon > div > div:first-child{
+    height: 5px;
+    width: 50px;
+    background-color: rgb(243,72,65);
+}
+
+div.longcontent div.rightcon > div > div:last-child{
+    width: 150px;
+    color: #EFEFEF;
 }

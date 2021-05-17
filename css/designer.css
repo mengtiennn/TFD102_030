@@ -6,3 +6,132 @@
 body{
     margin: 0;
 }
+
+nav.list{
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.list div.logo{
+    /* border: 1px solid green; */
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+    background-image: url(../img/logow.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+nav.list ul.listselect li{
+    list-style: none;
+    margin-top: 20px;
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+nav.list ul.listselect li > a{
+    /* border: 1px solid green; */
+    background: transparent;
+    color: #EFEFEF;
+    font-family: "Dosis";
+    text-decoration: none;
+    display: flex;
+
+}
+
+nav.list ul.listselect li:last-child{
+    margin-right: 80px;
+}
+
+nav.list ul.listselect li > a:hover{
+    color:rgb(243,72,65);
+}
+
+div.mainbanner{
+    /* border: 1px solid yellow; */
+    width: 1200px;
+    height: 500px;
+    margin: 10px auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 395px 395px 395px;
+    grid-template-rows: 250px 250px 250px;
+}
+
+div.mainbanner > div{
+    /* border: 1px solid green; */
+}
+
+div.mainbanner div.textcontent{
+    display: grid;
+}
+
+div.mainbanner div.textcontent > span{
+    /* border: 1px solid red; */
+    font-family: "Anton";
+    font-size: 80px;
+    text-align: right;
+    color: rgb(243,72,65);
+    margin-right: 5px;
+}
+
+div.mainbanner div.designerimg1{
+    /* background-image: url(../img/designer/9.jpg); */
+    /* background-size: 100%; */
+}
+
+div.designerimg1 div.name{
+    /* border: 3px solid rgb(243,72,65); */
+    width: 0px;
+    height: 0px;
+    background: transparent;
+    position: relative;
+    left: 50%;
+    transform: translate(-50% , -180px);
+    pointer-events: none;
+    font-size: 0;
+    font-family: "Anton";
+    color: rgb(243,72,65);
+}
+
+div.designerimg1 div.name h1{
+    text-align: center;
+    background: transparent;
+}
+
+div.mainbanner div.designerimg1 img:hover{
+    filter: blur(3px);
+}
+
+div.mainbanner div.designerimg1:hover .name{
+    font-size: 16px;
+    width: 250px;
+    height: 100px;
+    border: 3px solid rgb(243,72,65);
+    background-color: rgba(0,0,0, 0.4);
+    transition: .3s ease;
+}
+
+
+div.mainbanner div.designerimg2{
+    background-image: url(../img/designer/3.jpg);
+    background-size: 100%;
+}
+
+div.mainbanner div.designerimg3{
+    background-image: url(../img/designer/8.jfif);
+    background-size: 100%;
+}
+
+div.mainbanner div.designerimg4{
+    background-image: url(../img/designer/cut.png);
+    background-size: 100%;
+}
+
+div.mainbanner div.designerimg5{
+    background-image: url(../img/designer/cut2.png);
+    background-size: 100%;
+    background-position: center;
+}
