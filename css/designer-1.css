@@ -14,7 +14,7 @@ nav.list{
     justify-content: space-between;
 }
 
-nav.list div.logo{
+nav.list a.logo{
     /* border: 1px solid green; */
     width: 80px;
     height: 80px;
@@ -314,4 +314,23 @@ div.seven{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #EFEFEF;
+}
+
+footer .fcontent{
+    background: transparent;
+    text-align: center;
+    /* font-family: "Microsoft JhengHei"; */
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+footer a{
+    background: transparent;
+    text-decoration: none;
 }

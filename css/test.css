@@ -437,3 +437,22 @@ div.shop1 div.shopimg4{
     background-image: url(../img/7.jpg);
     background-size: 100%;
 }
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #EFEFEF;
+}
+
+footer .fcontent{
+    background: transparent;
+    text-align: center;
+    /* font-family: "Microsoft JhengHei"; */
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+footer a{
+    background: transparent;
+    text-decoration: none;
+}

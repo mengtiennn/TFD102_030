@@ -13,7 +13,7 @@ nav.list{
     justify-content: space-between;
 }
 
-nav.list div.logo{
+nav.list a.logo{
     /* border: 1px solid green; */
     width: 80px;
     height: 80px;
@@ -247,7 +247,7 @@ div.productimg1{
     /* border: 2px solid green; */
     width: 1200px;
     height: 250px;
-    margin-top: 100px;
+    margin-top: 50px;
     display: inline-flex;
     justify-content: space-between;
 
@@ -303,6 +303,23 @@ div.price1 > div:first-child{
 
 div.price1 > div:last-child{
     margin-right: 125px;
+}
+
+div.price1 > div > button{
+    background-color: rgb(243,72,65);
+    color: #EFEFEF;
+    border: 2px solid #EFEFEF;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: "Dosis";
+}
+
+div.price1 > div > button:hover{
+    background-color: #EFEFEF;
+    color: rgb(243,72,65);
+    border: 2px solid rgb(243,72,65);
+    transition: .5s;
 }
 
 div.price1 div.firprice1{
@@ -415,6 +432,10 @@ div.productimg2 div.secitem3{
     background-image: url(../img/product/selectimg/6.png);
 }
 
+div.productimg2 > div:hover{
+    opacity: .3;
+}
+
 /* third */
 
 div.productimg3{
@@ -453,6 +474,10 @@ div.productimg3 div.thiritem3{
     background-image: url(../img/product/selectimg/9.png);
 }
 
+div.productimg3 > div:hover{
+    opacity: .3;
+}
+
 /* fourth */
 
 div.productimg4{
@@ -489,4 +514,27 @@ div.productimg4 div.fouritem2{
 
 div.productimg4 div.fouritem3{
     background-image: url(../img/product/selectimg/12.png);
+}
+
+div.productimg4 > div:hover{
+    opacity: .3;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #EFEFEF;
+}
+
+footer .fcontent{
+    background: transparent;
+    text-align: center;
+    /* font-family: "Microsoft JhengHei"; */
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+footer a{
+    background: transparent;
+    text-decoration: none;
 }
