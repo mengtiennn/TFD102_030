@@ -186,7 +186,7 @@ div.decontent1 div.left1{
     align-items: center;
 }
 
-div.decontent1 div.left1 div.deimg{
+div.decontent1 div.left1 a.deimg{
     /* border: 1px solid orange; */
     border-radius: 300px;
     width: 300px;
@@ -196,7 +196,7 @@ div.decontent1 div.left1 div.deimg{
     background-size: 150%;
 }
 
-div.decontent1 div.left1 div.dename{
+div.decontent1 div.left1 a.dename{
     /* border: 1px solid pink; */
     width: 200px;
     height: 50px;
@@ -204,6 +204,7 @@ div.decontent1 div.left1 div.dename{
     color: #EFEFEF;
     font-size: 30px;
     text-align: center;
+    text-decoration: none;
 }
 
 div.decontent1 div.right1{
@@ -428,7 +429,7 @@ div.decontent1 div.right1 div.pdthree:hover .pdimg6{
     transform: scale(0.8);
 }
 
-div.left1 div.deimg2{
+div.left1 a.deimg2{
     border-radius: 300px;
     width: 300px;
     height: 300px;
@@ -487,7 +488,7 @@ div.decontent1 div.right1 div.pdthree:hover .pdimg9{
     transform: scale(0.8);
 }
 
-div.left1 div.deimg3{
+div.left1 a.deimg3{
     border-radius: 300px;
     width: 300px;
     height: 300px;
@@ -546,7 +547,7 @@ div.decontent1 div.right1 div.pdthree:hover .pdimg12{
     transform: scale(0.8);
 }
 
-div.left1 div.deimg4{
+div.left1 a.deimg4{
     border-radius: 300px;
     width: 300px;
     height: 300px;
@@ -605,7 +606,7 @@ div.decontent1 div.right1 div.pdthree:hover .pdimg15{
     transform: scale(0.8);
 }
 
-div.left1 div.deimg5{
+div.left1 a.deimg5{
     border-radius: 300px;
     width: 300px;
     height: 300px;
