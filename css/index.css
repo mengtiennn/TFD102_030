@@ -3,18 +3,6 @@
     box-sizing: border-box;
 }
 
-@font-face{
-    font-family: "Anton";
-    src: url(../font/Anton-Regular.woff) format("woff"),
-        url(../font/Anton-Regular.ttf) format("truetype"),
-}
-
-@font-face{
-    font-family: "Dosis";
-    src: url(../font/Dosis-Regular.woff) format("woff"),
-        url(../font/Dosis-Regular.ttf) format("truetype"),
-}
-
 body{
     margin: 0;
 }
