@@ -58,6 +58,7 @@ div.productbanner{
     height: 450px;
     display: flex;
     justify-content: flex-start;
+    position: relative;
 }
 
 div.productbanner div.pdimg1{
@@ -79,7 +80,7 @@ div.productbanner div.pdimg2{
     height: 350px;
     background-color: darkblue;
     position: absolute;
-    left: 180px;
+    left: 150px;
     z-index: 3;
     background-image: url(../img/product/selectbanner/3.png);
     background-repeat: no-repeat;
@@ -92,7 +93,7 @@ div.productbanner div.pdimg3{
     height: 350px;
     background-color: darkcyan;
     position: absolute;
-    left: 330px;
+    left: 300px;
     z-index: 4;
     background-image: url(../img/product/selectbanner/4.png);
     background-repeat: no-repeat;
@@ -105,7 +106,7 @@ div.productbanner div.pdimg4{
     height: 350px;
     background-color: yellow;
     position: absolute;
-    left: 480px;
+    left: 450px;
     z-index: 5;
     background-image: url(../img/product/selectbanner/2.png);
     background-repeat: no-repeat;
@@ -118,7 +119,7 @@ div.productbanner div.pdimg5{
     height: 350px;
     background-color: yellowgreen;
     position: absolute;
-    left: 630px;
+    left: 600px;
     z-index: 6;
     background-image: url(../img/product/selectbanner/7.png);
     background-repeat: no-repeat;
@@ -136,13 +137,13 @@ div.productbanner div.pdimg1:hover ~ div.pdimg2{
 }
 
 div.productbanner div.pdimg1:hover ~ div.pdimg3{
-    width: 180px;
+    width: 150px;
     transform: translateX(420px);
     transition: all 1s linear;
 }
 
 div.productbanner div.pdimg1:hover ~ div.pdimg4{
-    width: 180px;
+    width: 150px;
     transform: translateX(420px);
     transition: all 1s linear;
 }
@@ -156,13 +157,13 @@ div.productbanner div.pdimg1:hover ~ div.pdimg5{
 /* bannerimg2 */
 
 div.productbanner div.pdimg2:hover ~ div.pdimg3{
-    width: 180px;
+    width: 150px;
     transform: translateX(420px);
     transition: all 1s linear;
 }
 
 div.productbanner div.pdimg2:hover ~ div.pdimg4{
-    width: 180px;
+    width: 150px;
     transform: translateX(420px);
     transition: all 1s linear;
 }
@@ -178,7 +179,7 @@ div.productbanner div.pdimg2:hover ~ div.pdimg5{
 /* bannerimg3 */
 
 div.productbanner div.pdimg3:hover ~ div.pdimg4{
-    width: 180px;
+    width: 150px;
     transform: translateX(420px);
     transition: all 1s linear;
 }
@@ -210,7 +211,7 @@ div.productimg1{
     /* border: 2px solid green; */
     width: 1200px;
     height: 250px;
-    margin-top: 50px;
+    margin: 50px auto;
     display: inline-flex;
     justify-content: space-between;
 
@@ -394,7 +395,7 @@ div.productimg2{
     /* border: 2px solid green; */
     width: 1200px;
     height: 250px;
-    margin-top: 120px;
+    margin: 120px auto;
     display: inline-flex;
     justify-content: space-between;
 
@@ -436,7 +437,7 @@ div.productimg3{
     /* border: 2px solid green; */
     width: 1200px;
     height: 250px;
-    margin-top: 120px;
+    margin: 120px auto;
     display: inline-flex;
     justify-content: space-between;
 
@@ -478,7 +479,7 @@ div.productimg4{
     /* border: 2px solid green; */
     width: 1200px;
     height: 250px;
-    margin-top: 120px;
+    margin: 120px auto;
     display: inline-flex;
     justify-content: space-between;
 
