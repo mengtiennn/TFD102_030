@@ -52,7 +52,7 @@ nav.list ul.listselect li > a:hover{
 /* bannerimg */
 
 div.productbanner{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     margin: 20px auto;
     width: 1200px;
     height: 450px;
@@ -65,7 +65,7 @@ div.productbanner div.pdimg1{
     width: 600px;
     /* width: 180px; */
     height: 350px;
-    background-color: aqua;
+    /* background-color: aqua; */
     position: absolute;
     z-index: 2;
     background-image: url(../img/product/selectbanner/8.png);
@@ -78,7 +78,7 @@ div.productbanner div.pdimg2{
     width: 600px;
     /* width: 180px; */
     height: 350px;
-    background-color: darkblue;
+    /* background-color: darkblue; */
     position: absolute;
     left: 150px;
     z-index: 3;
@@ -91,7 +91,7 @@ div.productbanner div.pdimg3{
     width: 600px;
     /* width: 180px; */
     height: 350px;
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
     position: absolute;
     left: 300px;
     z-index: 4;
@@ -104,7 +104,7 @@ div.productbanner div.pdimg4{
     width: 600px;
     /* width: 185px; */
     height: 350px;
-    background-color: yellow;
+    /* background-color: #ffff00; */
     position: absolute;
     left: 450px;
     z-index: 5;
@@ -117,7 +117,7 @@ div.productbanner div.pdimg5{
     /* width: 550px; */
     width: 600px;
     height: 350px;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     position: absolute;
     left: 600px;
     z-index: 6;
@@ -211,8 +211,8 @@ div.productimg1{
     /* border: 2px solid green; */
     width: 1200px;
     height: 250px;
-    margin: 50px auto;
-    display: inline-flex;
+    margin: 50px auto 0 auto;
+    display: flex;
     justify-content: space-between;
 
 }
@@ -251,7 +251,8 @@ div.price1{
     /* border: 1px solid red; */
     width: 1200px;
     height: 200px;
-    display: inline-flex;
+    margin: 0 auto 0 auto;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -395,8 +396,8 @@ div.productimg2{
     /* border: 2px solid green; */
     width: 1200px;
     height: 250px;
-    margin: 120px auto;
-    display: inline-flex;
+    margin: 120px auto 0 auto;
+    display: flex;
     justify-content: space-between;
 
 }
@@ -437,8 +438,8 @@ div.productimg3{
     /* border: 2px solid green; */
     width: 1200px;
     height: 250px;
-    margin: 120px auto;
-    display: inline-flex;
+    margin: 120px auto 0 auto;
+    display: flex;
     justify-content: space-between;
 
 }
@@ -479,8 +480,8 @@ div.productimg4{
     /* border: 2px solid green; */
     width: 1200px;
     height: 250px;
-    margin: 120px auto;
-    display: inline-flex;
+    margin: 120px auto 0 auto;
+    display: flex;
     justify-content: space-between;
 
 }
