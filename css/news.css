@@ -74,6 +74,16 @@ section.imgbanner div.banner1 img{
     animation-iteration-count: infinite;
 }
 
+@keyframes up{
+    10%{
+        transform: translateY(0px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
 section.imgbanner div.banner1 div.textcontent{
     width: 600px;
     height: 300px;
@@ -82,6 +92,9 @@ section.imgbanner div.banner1 div.textcontent{
     top: 100px;
     background: transparent;
     font-family: "Dosis";
+    animation: up 12s linear infinite;
+    transform: translateY(100px);
+    animation-delay: 0s;
 }
 
 section.imgbanner div.banner1 div.textcontent h1{
@@ -120,6 +133,9 @@ section.imgbanner div.banner2 div.textcontent{
     top: 100px;
     background: transparent;
     font-family: "Dosis";
+    animation: up 12s linear infinite;
+    transform: translateY(100px);
+    animation-delay: 3s;
 }
 
 section.imgbanner div.banner2 div.textcontent h1{
@@ -163,6 +179,9 @@ section.imgbanner div.banner3 div.textcontent{
     top: 100px;
     background: transparent;
     font-family: "Dosis";
+    animation: up 12s linear infinite;
+    transform: translateY(100px);
+    animation-delay: 6s;
 }
 
 section.imgbanner div.banner3 div.textcontent h1{
@@ -200,6 +219,9 @@ section.imgbanner div.banner4 div.textcontent{
     top: 100px;
     background: transparent;
     font-family: "Dosis";
+    animation: up 12s linear infinite;
+    transform: translateY(100px);
+    animation-delay: 9s;    
 }
 
 section.imgbanner div.banner4 div.textcontent h1{

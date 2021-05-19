@@ -194,6 +194,30 @@ div.decontent1 div.left1 a.deimg{
     background-image: url(../img/designer/9.jpg);
     background-position: center;
     background-size: 150%;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+}
+
+div.decontent1 div.left1 a.deimg:hover{
+    opacity: .3;
+}
+
+div.decontent1 div.left1 div.more{
+    color: rgb(243,72,65);
+    width: 300px;
+    text-align: center;
+    transform: translateY(-150px);
+    background: transparent;
+    font-family: "Dosis";
+    font-size: 25px;
+    opacity: 0;
+    transition: .5s;
+    pointer-events: none;
+}
+
+div.decontent1 div.left1 a.deimg:hover ~ div.more{
+    opacity: 1;
 }
 
 div.decontent1 div.left1 a.dename{
@@ -436,6 +460,32 @@ div.left1 a.deimg2{
     background-image: url(../img/designer/3.jpg);
     background-position: center;
     background-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: .5s;
+}
+
+div.decontent1 div.left1 a.deimg2:hover{
+    opacity: .3;
+}
+
+div.decontent1 div.left1 div.more{
+    color: rgb(243,72,65);
+    width: 300px;
+    text-align: center;
+    transform: translateY(-150px);
+    background: transparent;
+    font-family: "Dosis";
+    font-size: 25px;
+    opacity: 0;
+    transition: .5s;
+    pointer-events: none;
+}
+
+div.decontent1 div.left1 a.deimg2:hover ~ div.more{
+    opacity: 1;
 }
 
 /* 3 */
@@ -495,6 +545,32 @@ div.left1 a.deimg3{
     background-image: url(../img/designer/8.jfif);
     background-position: center;
     background-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: .5s;
+}
+
+div.decontent1 div.left1 a.deimg3:hover{
+    opacity: .3;
+}
+
+div.decontent1 div.left1 div.more{
+    color: rgb(243,72,65);
+    width: 300px;
+    text-align: center;
+    transform: translateY(-150px);
+    background: transparent;
+    font-family: "Dosis";
+    font-size: 25px;
+    opacity: 0;
+    transition: .5s;
+    pointer-events: none;
+}
+
+div.decontent1 div.left1 a.deimg3:hover ~ div.more{
+    opacity: 1;
 }
 
 /* 4 */
@@ -554,6 +630,32 @@ div.left1 a.deimg4{
     background-image: url(../img/designer/cut2.png);
     background-position: center;
     background-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: .5s;
+}
+
+div.decontent1 div.left1 a.deimg4:hover{
+    opacity: .3;
+}
+
+div.decontent1 div.left1 div.more{
+    color: rgb(243,72,65);
+    width: 300px;
+    text-align: center;
+    transform: translateY(-150px);
+    background: transparent;
+    font-family: "Dosis";
+    font-size: 25px;
+    opacity: 0;
+    transition: .5s;
+    pointer-events: none;
+}
+
+div.decontent1 div.left1 a.deimg4:hover ~ div.more{
+    opacity: 1;
 }
 
 /* 5 */
@@ -613,7 +715,34 @@ div.left1 a.deimg5{
     background-image: url(../img/designer/cut.png);
     background-position: center;
     background-size: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: .5s;
 }
+
+div.decontent1 div.left1 a.deimg5:hover{
+    opacity: .3;
+}
+
+div.decontent1 div.left1 div.more{
+    color: rgb(243,72,65);
+    width: 300px;
+    text-align: center;
+    transform: translateY(-150px);
+    background: transparent;
+    font-family: "Dosis";
+    font-size: 25px;
+    opacity: 0;
+    transition: .5s;
+    pointer-events: none;
+}
+
+div.decontent1 div.left1 a.deimg5:hover ~ div.more{
+    opacity: 1;
+}
+
 
 footer{
     width: 100%;
