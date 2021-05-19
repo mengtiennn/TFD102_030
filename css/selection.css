@@ -53,8 +53,8 @@ nav.list ul.listselect li > a:hover{
 
 div.productbanner{
     border: 1px solid yellow;
-    margin-top: 20px;
-    width: 1200px;
+    margin-top: 20px auto;
+    width: 100%;
     height: 450px;
     display: flex;
     justify-content: flex-start;
@@ -118,7 +118,7 @@ div.productbanner div.pdimg5{
     height: 350px;
     background-color: yellowgreen;
     position: absolute;
-    right: 0;
+    left: 630px;
     z-index: 6;
     background-image: url(../img/product/selectbanner/7.png);
     background-repeat: no-repeat;
