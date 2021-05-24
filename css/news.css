@@ -402,9 +402,10 @@ a.news1 div.content3{
     height: 30px;
     font-size: 20px;
     font-family: "Dosis";
-    text-align: center;
+    text-align: left;
     color: #EFEFEF;
     background: transparent;
+    margin-left: 10px;
 }
 
 /* div.exhibition1 div.content1{

@@ -6,13 +6,16 @@
     <title>TOYUTOPIA</title>
     <link rel="stylesheet" href="../css/gallery.css">
     <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../vendors/aos/css/aos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+
     <nav class="list">
         <a class="logo" href="../html/index.html"></a>
         <ul class="listselect">
@@ -37,24 +40,24 @@
     <div class="galleryimg">
 
         <div class="leftside">
-            <div class="twelve"></div>
-            <div class="thirteen"></div>
-            <div class="fourteen"></div>
-            <div class="fifteen"></div>
-            <div class="sixteen"></div>
+            <div class="twelve" data-aos="fade-right" data-aos-delay="200"></div>
+            <div class="thirteen" data-aos="fade-right" data-aos-delay="300"></div>
+            <div class="fourteen" data-aos="fade-right" data-aos-once="true"></div>
+            <div class="fifteen" data-aos="fade-right" data-aos-once="true"></div>
+            <div class="sixteen" data-aos="fade-up" data-aos-once="true"></div>
         </div>
 
         <div class="rightside">
             <div class="one"></div>
-            <div class="two"></div>
+            <div class="two" data-aos="fade-left" data-aos-once="true" data-aos-delay="200"></div>
             <div class="three"></div>
-            <div class="four"></div>
-            <div class="five"></div>
-            <div class="six"></div>
-            <div class="seven"></div>
-            <div class="eight"></div>
+            <div class="four" data-aos="fade-left" data-aos-once="true"></div>
+            <div class="five" data-aos="fade-left" data-aos-once="true"></div>
+            <div class="six"  data-aos="fade-up" data-aos-once="true"></div>
+            <div class="seven" data-aos="fade-up" data-aos-once="true"></div>
+            <div class="eight" data-aos="fade-left" data-aos-once="true"></div>
             <div class="nine"></div>
-            <div class="ten"></div>
+            <div class="ten" data-aos="fade-up" data-aos-once="true"></div>
             <div class="eleven"></div>
         </div>
     </div>
@@ -62,13 +65,13 @@
     <div class="longcontent">
         
         <div class="leftcon">
-            <div class="leftone">Based in Los Angeles, I create and craft stories through toy photography - capturing the illusion of motion and emotion
+            <div class="leftone" data-aos="fade-right">Based in Los Angeles, I create and craft stories through toy photography - capturing the illusion of motion and emotion
             where none exists. I am committed to providing an unparalleled experience for my clients while creating images that
             build brand awareness in a fun, engaging manner.</div>
-            <div class="lefttwo">I create art with toys. I started this journey purely by accident, but I believe, that I have found my true passion. I
+            <div class="lefttwo" data-aos="fade-right">I create art with toys. I started this journey purely by accident, but I believe, that I have found my true passion. I
             have been shooting lifestyle and portrait photography for 10 years and also have 10 years of Adobe Photoshop and
             Lightroom experience.</div>
-            <div class="leftthree">Callahan breathes life into the toys, much like children do when playing with their action figures. He not only
+            <div class="leftthree" data-aos="fade-right">Callahan breathes life into the toys, much like children do when playing with their action figures. He not only
             photographs the clone troopers in scenes reminiscent to his work in real life, but he gives them a voice through short
             stories. Much like the stories of real men and women in combat, these fictitious troopers in a science fiction world,
             are given brief vignettes detailing life as a soldier in their galaxy.</div>
@@ -78,19 +81,19 @@
 
             <div class="rightone">
                 <div class="shortline"></div>
-                <div class="shortname" style="color: rgb(243,72,65);">Photographer
+                <div class="shortname" data-aos="fade-left" style="color: rgb(243,72,65);">Photographer
                 <br>MITCHEL WU</div>
             </div>
             
             <div class="righttwo">
                 <div class="shortline"></div>
-                <div class="shortname" style="color: rgb(243,72,65);">Photographer
+                <div class="shortname" data-aos="fade-left" style="color: rgb(243,72,65);">Photographer
                 CHARLES</div>
             </div>
             
             <div class="rightthree">
                 <div class="shortline"></div>
-                <div class="shortname" style="color: rgb(243,72,65);">Photographer
+                <div class="shortname" data-aos="fade-left" style="color: rgb(243,72,65);">Photographer
                 MATTHEW</div>
             </div>
         </div>
@@ -107,6 +110,9 @@
         
         </div>
     </footer>
+
+    <script src="../vendors/aos/js/aos.js"> </script>
+    <script>AOS.init();</script>
 </body>
 </html>
 

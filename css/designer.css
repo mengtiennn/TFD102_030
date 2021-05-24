@@ -1,6 +1,7 @@
 *{
     background-color: #181818;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body{
@@ -11,17 +12,26 @@ nav.list{
     /* border: 1px solid yellow; */
     display: flex;
     justify-content: space-between;
+    /* background-color: turquoise; */
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 9;
 }
 
 nav.list a.logo{
     /* border: 1px solid green; */
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     margin-left: 80px;
     background-image: url(../img/logow.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
+}
+
+nav.list ul.listselect{
+    overflow-y: hidden;
 }
 
 nav.list ul.listselect li{
@@ -41,6 +51,10 @@ nav.list ul.listselect li > a{
 
 }
 
+nav.list ul.listselect li:nth-child(2) > a{
+    color: rgb(243,72,65);
+}
+
 nav.list ul.listselect li:last-child{
     margin-right: 80px;
 }
@@ -49,15 +63,18 @@ nav.list ul.listselect li > a:hover{
     color:rgb(243,72,65);
 }
 
+
+
 div.mainbanner{
     /* border: 1px solid yellow; */
     width: 1200px;
     height: 500px;
-    margin: 10px auto;
+    margin: 80px auto;
     display: grid;
     gap: 5px;
     grid-template-columns: 395px 395px 395px;
     grid-template-rows: 250px 250px 250px;
+    overflow-y: hidden;
 }
 
 div.mainbanner > div{
@@ -214,6 +231,7 @@ div.decontent1 div.left1 div.more{
     opacity: 0;
     transition: .5s;
     pointer-events: none;
+    overflow-y: hidden;
 }
 
 div.decontent1 div.left1 a.deimg:hover ~ div.more{
@@ -243,7 +261,7 @@ div.decontent1 div.right1 div.pdone{
     /* border: 1px solid pink; */
     width: 250px;
     height: 400px;
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,9 +301,11 @@ div.decontent1 div.right1 > div > div:last-child{
 }
 
 div.decontent1 div.right1 div.pdone div.pdimg1{
+    background: transparent;
     background-image: url(../img/product/kaws/11.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
     transform: translateY(80px);
     transition: 1s;
     position: relative;
@@ -298,6 +318,7 @@ div.decontent1 div.right1 div.pdone:hover .pdimg1{
 }
 
 div.decontent1 div.right1 div.pdtwo div.pdimg2{
+    background: transparent;
     background-image: url(../img/product/kaws/20.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -315,6 +336,7 @@ div.decontent1 div.right1 div.pdtwo:hover .pdimg2{
 
 
 div.decontent1 div.right1 div.pdthree div.pdimg3{
+    background: transparent;
     background-image: url(../img/product/kaws/22.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -342,6 +364,7 @@ div.decontent1 div.right1 > div > div > div.con{
     color: #EFEFEF;
     background: transparent;
     font-size: 20px;
+    overflow-y: hidden;
 }
 
 div.decontent1 div.right1 > div > div > span{
@@ -349,6 +372,7 @@ div.decontent1 div.right1 > div > div > span{
     color: #EFEFEF;
     background: transparent;
     font-size: 15px;
+    overflow-y: hidden;
 }
 
 div.decontent1 div.right1 > div > div > button{
@@ -406,6 +430,7 @@ div.decontent1 div.right1 div.pdthree:hover .pdind3{
 
 
 div.decontent1 div.right1 div.pdone div.pdimg4{
+    background: transparent;
     background-image: url(../img/product/ron\ english/21.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -421,6 +446,7 @@ div.decontent1 div.right1 div.pdone:hover .pdimg4{
 }
 
 div.decontent1 div.right1 div.pdtwo div.pdimg5{
+    background: transparent;
     background-image: url(../img/product/ron\ english/25.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -438,6 +464,7 @@ div.decontent1 div.right1 div.pdtwo:hover .pdimg5{
 
 
 div.decontent1 div.right1 div.pdthree div.pdimg6{
+    background: transparent;
     background-image: url(../img/product/ron\ english/30.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -491,6 +518,7 @@ div.decontent1 div.left1 a.deimg2:hover ~ div.more{
 /* 3 */
 
 div.decontent1 div.right1 div.pdone div.pdimg7{
+    background: transparent;
     background-image: url(../img/product/jason\ freeny/2.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -506,6 +534,7 @@ div.decontent1 div.right1 div.pdone:hover .pdimg7{
 }
 
 div.decontent1 div.right1 div.pdtwo div.pdimg8{
+    background: transparent;
     background-image: url(../img/product/jason\ freeny/7.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -523,6 +552,7 @@ div.decontent1 div.right1 div.pdtwo:hover .pdimg8{
 
 
 div.decontent1 div.right1 div.pdthree div.pdimg9{
+    background: transparent;
     background-image: url(../img/product/jason\ freeny/6.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -576,6 +606,7 @@ div.decontent1 div.left1 a.deimg3:hover ~ div.more{
 /* 4 */
 
 div.decontent1 div.right1 div.pdone div.pdimg10{
+    background: transparent;
     background-image: url(../img/product/abell\ octovan/14.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -591,6 +622,7 @@ div.decontent1 div.right1 div.pdone:hover .pdimg10{
 }
 
 div.decontent1 div.right1 div.pdtwo div.pdimg11{
+    background: transparent;
     background-image: url(../img/product/abell\ octovan/23.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -608,6 +640,7 @@ div.decontent1 div.right1 div.pdtwo:hover .pdimg11{
 
 
 div.decontent1 div.right1 div.pdthree div.pdimg12{
+    background: transparent;
     background-image: url(../img/product/abell\ octovan/27.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -661,6 +694,7 @@ div.decontent1 div.left1 a.deimg4:hover ~ div.more{
 /* 5 */
 
 div.decontent1 div.right1 div.pdone div.pdimg13{
+    background: transparent;
     background-image: url(../img/product/josh/25.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -676,6 +710,7 @@ div.decontent1 div.right1 div.pdone:hover .pdimg13{
 }
 
 div.decontent1 div.right1 div.pdtwo div.pdimg14{
+    background: transparent;
     background-image: url(../img/product/josh/26.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -693,6 +728,7 @@ div.decontent1 div.right1 div.pdtwo:hover .pdimg14{
 
 
 div.decontent1 div.right1 div.pdthree div.pdimg15{
+    background: transparent;
     background-image: url(../img/product/josh/27.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -742,6 +778,17 @@ div.decontent1 div.left1 div.more{
 div.decontent1 div.left1 a.deimg5:hover ~ div.more{
     opacity: 1;
 }
+
+
+div.toptitle{
+    display: none;
+}
+
+div.mobileimg{
+    display: none;
+}
+
+
 
 
 footer{

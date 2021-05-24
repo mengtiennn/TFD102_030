@@ -1,6 +1,7 @@
 *{
     background-color: #181818;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body{
@@ -54,10 +55,12 @@ div.galleryimg{
     display: flex;
     justify-content: center;
     /* border: 1px solid yellow; */
-    margin: 0 auto;
+    margin: 20px auto;
+    background: transparent;
 }
 
 div.rightside{
+    background: transparent;
     margin-right: 0px;
     width: 800px;
     height: 1600px;
@@ -87,9 +90,11 @@ div.rightside{
         "a10 a10 a10 a10 a11 . . ."
         "a10 a10 a10 a10 a11 . . ."
     ;
+    overflow-y: hidden;
 }
 
 div.rightside div.one{
+    background: transparent;
     grid-area: a1;
     /* border: 1px solid green; */
     background-image: url(../img/photo/21.jpg);
@@ -98,6 +103,7 @@ div.rightside div.one{
 }
 
 div.rightside div.two{
+    background: transparent;
     grid-area: a2;
     /* border: 1px solid blue; */
     background-image: url(../img/photo/20.jpg);
@@ -106,6 +112,7 @@ div.rightside div.two{
 }
 
 div.rightside div.three{
+    background: transparent;
     grid-area: a3;
     /* border: 1px solid orange; */
     background-image: url(../img/photo/25.jpg);
@@ -114,6 +121,7 @@ div.rightside div.three{
 }
 
 div.rightside div.four{
+    background: transparent;
     grid-area: a4;
     /* border: 1px solid red; */
     background-image: url(../img/photo/26.png);
@@ -122,6 +130,7 @@ div.rightside div.four{
 }
 
 div.rightside div.five{
+    background: transparent;
     grid-area: a5;
     /* border: 1px solid darkcyan; */
     background-image: url(../img/photo/1.png);
@@ -131,6 +140,7 @@ div.rightside div.five{
 
 
 div.rightside div.six{
+    background: transparent;
     grid-area: a6;
     /* border: 1px solid lightcoral; */
     background-image: url(../img/photo/13.png);
@@ -139,6 +149,7 @@ div.rightside div.six{
 }
 
 div.rightside div.seven{
+    background: transparent;
     grid-area: a7;
     /* border: 1px solid lightseagreen; */
     background-image: url(../img/photo/27.png);
@@ -147,6 +158,7 @@ div.rightside div.seven{
 }
 
 div.rightside div.eight{
+    background: transparent;
     grid-area: a8;
     /* border: 1px solid lightsalmon; */
     background-image: url(../img/photo/17.jpg);
@@ -155,6 +167,7 @@ div.rightside div.eight{
 }
 
 div.rightside div.nine{
+    background: transparent;
     grid-area: a9;
     /* border: 1px solid greenyellow; */
     background-image: url(../img/photo/31.png);
@@ -164,6 +177,7 @@ div.rightside div.nine{
 }
 
 div.rightside div.ten{
+    background: transparent;
     grid-area: a10;
     /* border: 1px solid brown; */
     background-image: url(../img/photo/12.jpg);
@@ -172,6 +186,7 @@ div.rightside div.ten{
 }
 
 div.rightside div.eleven{
+    background: transparent;
     grid-area: a11;
     border-right: 3px solid #EFEFEF;
     width: 20px;
@@ -179,6 +194,7 @@ div.rightside div.eleven{
 }
 
 div.leftside{
+    background: transparent;
     width: 350px;
     height: 1600px;
     margin-left: 80px;
@@ -207,9 +223,11 @@ div.leftside{
     ". . . . ."
     ". . . . ."
     ;
+    overflow-y: hidden;
 }
 
 div.leftside div.twelve{
+    background: transparent;
     grid-area: b1;
     /* border: 1px solid darkkhaki; */
     background-image: url(../img/photo/8.jpg);
@@ -218,6 +236,7 @@ div.leftside div.twelve{
 }
 
 div.leftside div.thirteen{
+    background: transparent;
     grid-area: b2;
     /* border: 1px solid red; */
     background-image: url(../img/photo/9.jpg);
@@ -225,7 +244,8 @@ div.leftside div.thirteen{
     background-size: 100%;
 }
 
-div.leftside div.fourteen{   
+div.leftside div.fourteen{  
+    background: transparent; 
     grid-area: b3;
     /* border: 1px solid khaki; */
     background-image: url(../img/photo/24.jpg);
@@ -235,6 +255,7 @@ div.leftside div.fourteen{
 }
 
 div.leftside div.fifteen{   
+    background: transparent;
     grid-area: b4;
     /* border: 1px solid forestgreen; */
     background-image: url(../img/photo/15.jpg);
@@ -244,6 +265,7 @@ div.leftside div.fifteen{
 }
 
 div.leftside div.sixteen{   
+    background: transparent;
     grid-area: b5;
     /* border: 1px solid forestgreen; */
     background-image: url(../img/photo/35.jpg);
@@ -256,7 +278,7 @@ div.longcontent{
     /* border: 1px solid yellow; */
     width: 1000px;
     height: 1000px;
-    margin: 0 auto;
+    margin: -20px auto;
     display: flex;
     font-family: "Dosis";
 }
@@ -264,7 +286,7 @@ div.longcontent{
 div.longcontent div.leftcon{
     border-right: 3px solid #EFEFEF;
     width: 750px;
-    height: 1000px;
+    height: 980px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -301,7 +323,7 @@ div.longcontent div.leftcon div.leftthree{
 div.longcontent div.rightcon{
     /* border: 1px solid green; */
     width: 250px;
-    height: 1000px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
