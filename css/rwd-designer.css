@@ -1,7 +1,7 @@
 @media screen and (min-width: 992px) and (max-width: 1199px){
 
     div.mainbanner{
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 992px;
         height: 970px;
         display: grid;
@@ -12,12 +12,12 @@
     }
 
     div.mainbanner > div{ 
-        border: 1px solid green;
+        /* border: 1px solid green; */
     }
 
     div.mainbanner div.textcontent > span{
         text-align: left;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         font-size: 110px;
         overflow-y: hidden;
     }
@@ -48,19 +48,19 @@
     }
 
     div.decontent1{
-        border: 1px solid orange;
+        /* border: 1px solid orange; */
         width: 992px;
         align-items: center;
     }
 
     div.decontent1 div.left1{
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         width: 250px;
         justify-content: flex-start;
     }
 
     div.decontent1 div.left1 a.deimg{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 250px;
         height: 250px;
         border-radius: 250px;
@@ -68,7 +68,7 @@
     }
 
     div.decontent1 div.left1 a.deimg2{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 250px;
         height: 250px;
         border-radius: 250px;
@@ -76,7 +76,7 @@
     }
 
     div.decontent1 div.left1 a.deimg3{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 250px;
         height: 250px;
         border-radius: 250px;
@@ -84,7 +84,7 @@
     }
     
     div.decontent1 div.left1 a.deimg4{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 250px;
         height: 250px;
         border-radius: 250px;
@@ -92,7 +92,7 @@
     }
 
     div.decontent1 div.left1 a.deimg5{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 250px;
         height: 250px;
         border-radius: 250px;
@@ -101,13 +101,13 @@
 
 
     div.decontent1 div.left1 a.dename{
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
 
         margin-top: -25px;
     }
 
     div.decontent1 div.right1{
-        border: 1px solid pink;
+        /* border: 1px solid pink; */
         width: 730px;
         overflow-y: hidden;
     }
@@ -397,7 +397,7 @@
     /* banner */
     
     div.mainbanner{
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 768px;
         height: 670px;
         display: grid;
@@ -408,12 +408,12 @@
     }
 
     div.mainbanner > div{ 
-        border: 1px solid green;
+        /* border: 1px solid green; */
     }
 
     div.mainbanner div.textcontent > span{
         text-align: left;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         font-size: 85px;
         overflow-y: hidden;
     }
@@ -447,19 +447,19 @@
 
 
     div.decontent1{
-        border: 1px solid orange;
+        /* border: 1px solid orange; */
         width: 768px;
         align-items: center;
     }
 
     div.decontent1 div.left1{
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         width: 250px;
         justify-content: flex-start;
     }
 
     div.decontent1 div.left1 a.deimg{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 250px;
         height: 250px;
         border-radius: 250px;
@@ -467,7 +467,7 @@
     }
 
     div.decontent1 div.left1 a.deimg2{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 250px;
         height: 250px;
         border-radius: 250px;
@@ -475,7 +475,7 @@
     }
 
     div.decontent1 div.left1 a.deimg3{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 250px;
         height: 250px;
         border-radius: 250px;
@@ -483,7 +483,7 @@
     }
     
     div.decontent1 div.left1 a.deimg4{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 250px;
         height: 250px;
         border-radius: 250px;
@@ -491,7 +491,7 @@
     }
 
     div.decontent1 div.left1 a.deimg5{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 250px;
         height: 250px;
         border-radius: 250px;
@@ -500,13 +500,13 @@
 
 
     div.decontent1 div.left1 a.dename{
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
 
         margin-top: -25px;
     }
 
     div.decontent1 div.right1{
-        border: 1px solid pink;
+        /* border: 1px solid pink; */
         width: 515px;
         overflow-y: hidden;
     }
@@ -794,7 +794,7 @@
     /* banner */
     
     div.mainbanner{
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 576px;
         height: 650px;
         display: grid;
@@ -805,12 +805,12 @@
     }
 
     div.mainbanner > div{ 
-        border: 1px solid green;
+        /* border: 1px solid green; */
     }
 
     div.mainbanner div.textcontent > span{
         text-align: left;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         font-size: 70px;
         overflow-y: hidden;
     }
@@ -847,7 +847,7 @@
 
 
     div.decontent1{
-        border: 1px solid orange;
+        /* border: 1px solid orange; */
         width: 576px;
         height: 600px;
         display: grid;
@@ -857,13 +857,13 @@
     }
 
     div.decontent1 div.left1{
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         width: 576px;
         height: 300px;
     }
 
     div.decontent1 div.left1 a.deimg{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         border-radius: 0px;
         width: 576px;
         height: 300px;
@@ -872,7 +872,7 @@
     }
 
     div.decontent1 div.left1 a.deimg2{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         border-radius: 0px;
         width: 576px;
         height: 300px;
@@ -880,7 +880,7 @@
     }
 
     div.decontent1 div.left1 a.deimg3{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         border-radius: 0px;
         width: 576px;
         height: 300px;
@@ -888,7 +888,7 @@
     }
     
     div.decontent1 div.left1 a.deimg4{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         border-radius: 0px;
         width: 576px;
         height: 300px;
@@ -898,7 +898,7 @@
     }
 
     div.decontent1 div.left1 a.deimg5{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         border-radius: 0px;
         width: 576px;
         height: 300px;
@@ -913,7 +913,7 @@
     }
 
     div.decontent1 div.right1{
-        border: 1px solid pink;
+        /* border: 1px solid pink; */
         width: 576px;
         overflow-y: hidden;
         margin-top: -150px;
@@ -1231,7 +1231,7 @@
 
 
     div.bannerimg{
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         width: 100%;
         height: 600px;
         margin: 100px auto 0 auto;
@@ -1240,11 +1240,12 @@
         background-repeat: no-repeat;
         position: relative;
         opacity: .6;
+        transition: all 1s;
     }
 
     div.toptitle{
         /* border: 1px solid yellow; */
-        width: 375px;
+        width: 100%;
         height: 200px;
         margin: 0 auto;
         position: relative;
@@ -1291,7 +1292,7 @@
         margin-left: 50%;
         transform: translateX(-10px);
         background: transparent;
-        margin-top: 100px;
+        /* margin-top: 100px; */
         padding: 10px;
     }
 
@@ -1312,14 +1313,14 @@
     div.mobileimg{
         display: flex;
         flex-direction: column;
-        border: 1px solid pink;
+        /* border: 1px solid pink; */
         width: 375px;
         height: 300px;;
-        margin: 30px auto 0 auto;
+        margin: 80px auto 0 auto;
     }
 
-    div.mobileimg div.mobilede{
-        border: 1px solid blue;
+    div.mobileimg a.mobilede{
+        /* border: 1px solid blue; */
         width: 375px;
         height: 250px;
         background-image: url(../img/designer/9.jpg);
@@ -1343,7 +1344,7 @@
     }
 
     div.mobileproduct{
-        border: 1px solid orange;
+        /* border: 1px solid orange; */
         width: 375px;
         height: 510px;
         margin: 0 auto;
@@ -1353,31 +1354,31 @@
         grid-template-rows: 250px 250px;
     }
 
-    div.mobileproduct > div{
-        border: 1px solid darkcyan;
+    div.mobileproduct > a{
+        /* border: 1px solid darkcyan; */
         width: 185px;
         height: 250px;
     }
 
-    div.mobileproduct div.mpd1{
+    div.mobileproduct a.mpd1{
         background-image: url(../img/product/kaws/25.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd2{
+    div.mobileproduct a.mpd2{
         background-image: url(../img/product/kaws/21.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd3{
+    div.mobileproduct a.mpd3{
         background-image: url(../img/product/kaws/26.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }    
 
-    div.mobileproduct div.mpd4{
+    div.mobileproduct a.mpd4{
         background-image: url(../img/product/kaws/27.png);
         background-repeat: no-repeat;
         background-size: 100%;
@@ -1385,33 +1386,33 @@
 
     /* 2 */
 
-    div.mobileimg div.mobilede2{
-        border: 1px solid blue;
+    div.mobileimg a.mobilede2{
+        /* border: 1px solid blue; */
         width: 375px;
         height: 250px;
         background-image: url(../img/designer/3.jpg);
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd5{
+    div.mobileproduct a.mpd5{
         background-image: url(../img/product/ron\ english/36.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd6{
+    div.mobileproduct a.mpd6{
         background-image: url(../img/product/ron\ english/37.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd7{
+    div.mobileproduct a.mpd7{
         background-image: url(../img/product/ron\ english/38.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }    
 
-    div.mobileproduct div.mpd8{
+    div.mobileproduct a.mpd8{
         background-image: url(../img/product/ron\ english/39.png);
         background-repeat: no-repeat;
         background-size: 100%;
@@ -1419,33 +1420,33 @@
 
     /* 3 */
 
-    div.mobileimg div.mobilede3{
-        border: 1px solid blue;
+    div.mobileimg a.mobilede3{
+        /* border: 1px solid blue; */
         width: 375px;
         height: 250px;
         background-image: url(../img/designer/8.jfif);
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd9{
+    div.mobileproduct a.mpd9{
         background-image: url(../img/product/jason\ freeny/45.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd10{
+    div.mobileproduct a.mpd10{
         background-image: url(../img/product/jason\ freeny/7.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd11{
+    div.mobileproduct a.mpd11{
         background-image: url(../img/product/jason\ freeny/46.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }    
 
-    div.mobileproduct div.mpd12{
+    div.mobileproduct a.mpd12{
         background-image: url(../img/product/jason\ freeny/47.png);
         background-repeat: no-repeat;
         background-size: 100%;
@@ -1453,8 +1454,8 @@
 
     /* 4 */
 
-    div.mobileimg div.mobilede4{
-        border: 1px solid blue;
+    div.mobileimg a.mobilede4{
+        /* border: 1px solid blue; */
         width: 375px;
         height: 250px;
         background-image: url(../img/designer/cut2.png);
@@ -1462,25 +1463,25 @@
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd13{
+    div.mobileproduct a.mpd13{
         background-image: url(../img/product/abell\ octovan/28.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd14{
+    div.mobileproduct a.mpd14{
         background-image: url(../img/product/abell\ octovan/29.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd15{
+    div.mobileproduct a.mpd15{
         background-image: url(../img/product/abell\ octovan/30.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }    
 
-    div.mobileproduct div.mpd16{
+    div.mobileproduct a.mpd16{
         background-image: url(../img/product/abell\ octovan/31.png);
         background-repeat: no-repeat;
         background-size: 100%;
@@ -1488,33 +1489,33 @@
 
     /* 5 */
 
-    div.mobileimg div.mobilede5{
-        border: 1px solid blue;
+    div.mobileimg a.mobilede5{
+        /* border: 1px solid blue; */
         width: 375px;
         height: 250px;
         background-image: url(../img/designer/cut.png);
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd17{
+    div.mobileproduct a.mpd17{
         background-image: url(../img/product/josh/28.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd18{
+    div.mobileproduct a.mpd18{
         background-image: url(../img/product/josh/29.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
-    div.mobileproduct div.mpd19{
+    div.mobileproduct a.mpd19{
         background-image: url(../img/product/josh/30.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }    
 
-    div.mobileproduct div.mpd20{
+    div.mobileproduct a.mpd20{
         background-image: url(../img/product/josh/31.png);
         background-repeat: no-repeat;
         background-size: 100%;

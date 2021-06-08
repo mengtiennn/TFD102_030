@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>TOYUTOPIA</title>
     <link rel="stylesheet" href="../css/location.css">
     <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/rwd-location.css">
     <link rel="stylesheet" href="../vendors/aos/css/aos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -16,6 +18,11 @@
 <body>
     <nav class="list">
         <a class="logo" href="../html/index.html"></a>
+        <div class="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
         <ul class="listselect">
             <li>
                 <a href="../html/news.html">NEWS</a>
@@ -30,11 +37,12 @@
                 <a href="../html/selection.html">SELECTION</a>
             </li>
             <li>
-                <a href="../html/location.html" style="color: rgb(243,72,65)">LOCATION</a>
+                <a href="../html/location.html">LOCATION</a>
             </li>
         </ul>
-
+    
     </nav>
+
 
     <div class="banner">
 
@@ -125,8 +133,57 @@
                 <div class="line4"></div>
             </div>
         </div>
+    
+        <div class="mobilecon">
+            
+            <div class="first">
+                <div class="one">
+                    <div class="oneimg"></div>
+                    <div class="onename">Kidult</div>
+                    <div class="oneline"></div>
+                </div>
+                <div class="two">
+                    <div class="twoimg"></div>
+                    <div class="twoname">ParadiseToy</div>
+                    <div class="twoline"></div>
+                </div>
+            </div>
+            
+            <div class="second">
+                <div class="three">
+                    <div class="threeimg"></div>
+                    <div class="threename">Zombie</div>
+                    <div class="threeline"></div>
+                </div>
+                <div class="four">
+                    <div class="fourimg"></div>
+                    <div class="fourname">Monster Taipei</div>
+                    <div class="fourline"></div>
+                </div>
+            </div>
+            
+        </div>
+    
+    
+    
+    
+    
     </div>
 
+    <!-- firstmobile -->
+
+    <div class="outside">
+        <div class="ind1">
+            
+            <img src="../img/nobg3.png">
+            
+        </div>
+        <div class="ind2">
+            <div class="title">LOCATION</div>
+            <div class="line"></div>
+            <div class="text">We have a lot of partner stores in Taiwan to provide you with convenient online shopping and in-store pickup services.</div>
+        </div>
+    </div>
 
 
 
@@ -195,17 +252,30 @@
     <footer>
     
         <div class="fcontent">
+            <div class="ftop">
+                <div class="fleft">
+                    <a>Contact Us</a>
+                    <a>F.A.Q</a>
+                    <a>Cookies Policy</a>
+                    <a>Privacy Policy</a>
+                </div>
+                <div class="fright">
+                    <img src="../img/fb.png">
+                    <img src="../img/ig.png">
+                    <img src="../img/tw.png">
+                </div>
+            </div>
     
-            本網站為緯育TibaMe前端設計工程師班第68期學員專題作品<br>
-            本平台僅供學習、展示之用。參考資源:Mighty Jaxx。<br>
-            若有侵權疑慮，您可以私訊
-            <a href="https://www.facebook.com/webindex/">TibaMe-前端設計工程師養成班</a>
-            ，後續會由專人協助處理
-    
+            <div class="fbottom">
+                本網站為緯育TibaMe前端設計工程師班第68期學員專題作品<br>
+                本平台僅供學習、展示之用。參考資源:Mighty Jaxx。<br>
+                若有侵權疑慮，您可以私訊
+                <a href="https://www.facebook.com/webindex/">TibaMe-前端設計工程師養成班</a>
+                ，後續會由專人協助處理
+            </div>
         </div>
     
     </footer>
-
 
 
     <script>
@@ -243,8 +313,10 @@
                     : '0';
         });
 
+
     </script>
 
+    <script src="../js/hamburger.js"></script>
     <script src="../vendors/aos/js/aos.js"> </script>
     <script>AOS.init();</script>
 

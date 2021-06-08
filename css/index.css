@@ -7,90 +7,142 @@ body{
     margin: 0;
 }
 
-/* nav */
-
-/* nav.list{
-    border: 1px solid yellow;
-    display: inline-block;
-}
-
-nav.list ul.listselect li{
-    list-style: none;
-    margin-top: 20px;
-}
-
-nav.list ul.listselect li > a{
-    border: 1px solid green;
-    background: transparent;
-    color: #EFEFEF;
-    font-family: "Dosis";
-    text-decoration: none;
-} */
 
 div.indexvideo{
-    /* border: 1px solid red; */
-    width: 100%;
-    height: 400px;
-    font-size: 0;
-    background-color: #181818;
-    display: flex;
-    justify-content: center;
+    width: 1200px;
+    height: 600px;
+    /* border: 1px solid pink; */
     margin: 0 auto;
-    align-items: center;
+    display: flex;
 }
 
-div.indexvideo div.titleleft{
-    font-size: 250px;
-    width: 450px;
-    height: 400px;
+div.indexvideo div.indextitle{
+    width: 550px;
+    height: 600px;
     /* border: 1px solid blue; */
-    text-align: right;
-    color: rgb(243,72,65);
-    font-family: "Anton";
-    background: transparent;
-    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 
-div.indexvideo div.titleright{
+div.indexvideo div.indextitle div.bigtitle{
+    width: 0px;
+    /* border: 1px solid orange; */
+    font-family: "Anton";
+    color: rgb(243,72,65);
+    font-size: 180px;
+    line-height: 160px;
+    /* margin-left: 100px; */
+}
+
+
+div.indexvideo div.indextitle div.sintd{
+    /* border: 1px solid pink; */
+    width: 350px;
+    margin-right: 140px;
+    margin-top: -50px;
+    font-family: "Dosis";
+    color: white;
+    font-size: 16px;
+}
+
+
+div.indexvideo div.videoblock{
+    width: 500px;
+    height: 500px;
     /* border: 1px solid green; */
-    width: 750px;
-    height: 400px;
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-top: 50px;
 }
 
-div.indexvideo div.titleright video{
-    width: 750px;
-    opacity: .6;
-    /* border: 1px solid yellow; */
-}
-
-div.indexvideo div.titleright div.ut{
+div.indexvideo div.videoblock div.part1{
     /* border: 1px solid blue; */
-    width: 650px;
-    height: 400px;
-    background:transparent;
-    position: absolute;
-    color: #EFEFEF;
-    font-size: 250px;
-    font-family: "Anton";
-    opacity: .3;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
 }
 
-/* div.indexvideo div.titleright{
-    border: 1px solid yellow;
-    font-size: 250px;
-    font-family: "Anton";
-    color: white;
-    opacity: .3;
-    width: 650px;
-    height: 400px;
-    background: transparent;
+div.indexvideo div.videoblock div.part1 video{
+    width: 500px;
     position: relative;
-} */
+    z-index: 5;
+    margin-top: 50px;
+
+}
 
 
+div.indexvideo div.videoblock div.part3{
+    width: 30px;
+    height: 300px;
+    position: relative;
+    margin-top: -350px;
+    margin-left: 400px;
+    z-index: 10;
+}
+div.indexvideo div.videoblock div.part4{
+    width: 400px;
+    height: 30px;
+    position: relative;
+    margin-top: -190px;
+    margin-left: 20px;
+    z-index: 10;
+}
+
+div.indexvideo div.videoblock > div{
+    /* border: 1px solid yellow; */
+
+}
+
+div.indexvideo div.videoblock div.part2{
+    width: 500px;
+    height: 300px;
+    margin-top: -80px;
+    position: relative;
+    margin-left: 90px;
+    z-index: 2;
+    /* border: 1px solid yellow; */
+    background: transparent;
+}
+
+div.indexvideo div.videoblock div.part2 video{
+    width: 500px;
+    position: relative;
+    background: transparent;
+}
+
+div.indexvideo div.videoblock div.part5{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    z-index: 4;
+    margin-top: -280px;
+    margin-left: 20px;
+    /* border: 1px solid green; */
+    overflow: hidden;
+}
+
+div.indexvideo div.videoblock div.part5 video{
+    width: 500px;
+}
+
+div.mobanner{
+    display: none;
+}
+
+div.mobanner2{
+    display: none;
+}
+
+div.kawsphoto{
+    display: none;
+}
+
+div.kawsphoto2{
+    display: none;
+}
 
 /* bannerarrow */
 
@@ -111,17 +163,17 @@ div.indexvideo div.titleright div.ut{
 div.downarrow{
     /* border: 1px solid yellow; */
     width: 100px;
-    height: 250px;
-    margin-left: 50%;
+    height: 150px;
+    margin-left: 53%;
     transform: translateX(-50%);
-    margin-top: 80px;
+    margin-top: -80px;
     background: transparent;
 }
 
 div.downarrow span.arrow{
     display: block;
-    width: 25px;
-    height: 25px;
+    width: 18px;
+    height: 18px;
     border-bottom: 5px solid #EFEFEF;
     border-right:5px solid #EFEFEF;
     transform: rotate(45deg);
@@ -444,6 +496,8 @@ div.aboutus{
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 div.aboutus div.leftcon{
@@ -477,6 +531,7 @@ div.int2{
 
 div.aboutusimg{
     /* border: 1px solid yellow; */
+    background: transparent;
     width: 450px;
     height: 350px;
     z-index: 11;
@@ -497,12 +552,14 @@ div.newarrivals{
     display: flex;
     align-items: flex-end;
     /* overflow: hidden; */
+    position: relative;
 }
 
 div.newarrivals div.newimg{
     /* border: 1px solid orange; */
     width: 100%;
     height: 450px;
+    background-repeat: no-repeat;
     background-image: url(../img/123/10.png);
     background-size: 100%;
     background-position: top;
@@ -517,6 +574,7 @@ div.newarrivals div.newarrivalshead{
     background: transparent;
     font-family: "Anton";
     position: absolute;
+    top: 70%;
     margin-left: 50%;
     transform: translate(-50% , 50px);
 }
@@ -799,21 +857,25 @@ div.designerbox div.rightbox{
 div.designerbox div.imgone{
     background-image: url(../img/designer/20.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 div.designerbox div.imgtwo{
     background-image: url(../img/designer/21.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 div.designerbox div.imgthree{
     background-image: url(../img/designer/22.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 div.designerbox div.imgfour{
     background-image: url(../img/designer/23.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 div.designerbox div.rightbox div.conone{
@@ -837,7 +899,9 @@ div.designerbox div.rightbox div.conthree{
 }
 
 div.designerbox div.rightbox div.contwo{
-    background-image: url(../img/product/18.jpg);
+    background: transparent;
+    background-image: url(../img/product/71.png);
+    background-size: 100%;
     background-position: center;
     opacity: .3;
     display: flex;
@@ -848,8 +912,10 @@ div.designerbox div.rightbox div.contwo{
 }
 
 div.designerbox div.rightbox div.confour{
-    background-image: url(../img/product/19.jpg);
+    background: transparent;
+    background-image: url(../img/product/70.png);
     background-position: center;
+    background-size: 100%;
     opacity: .3;
     display: flex;
     align-items: flex-end;
@@ -947,8 +1013,9 @@ div.designerbox div.leftbox div.imgone:hover ~ div.conone{
 
 footer{
     width: 100%;
-    height: 100px;
-    background-color: #EFEFEF;
+    height: 150px;
+    background-color: #181818;
+    /* border-top: 1px solid gray; */
 }
 
 footer .fcontent{
@@ -957,9 +1024,51 @@ footer .fcontent{
     /* font-family: "Microsoft JhengHei"; */
     font-size: 10px;
     padding-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 footer a{
     background: transparent;
     text-decoration: none;
+    color: white;
+}
+
+footer .fcontent .ftop{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .fcontent .ftop .fleft{
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+    /* border: 1px solid blue; */
+}
+
+footer .fcontent .ftop .fright{
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+    /* border: 1px solid blue; */
+}
+
+footer .fcontent .ftop .fleft a{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: "Dosis";
+}
+
+footer .fcontent .ftop .fright img{
+    margin-left: 20px;
+}
+
+footer .fcontent .fbottom{
+    padding: 20px;
 }

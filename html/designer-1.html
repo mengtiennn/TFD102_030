@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>TOYUTOPIA</title>
     <link rel="stylesheet" href="../css/designer-1.css">
     <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/rwd-designer1.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,12 +17,17 @@
 <body>
     <nav class="list">
         <a class="logo" href="../html/index.html"></a>
+        <div class="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
         <ul class="listselect">
             <li>
                 <a href="../html/news.html">NEWS</a>
             </li>
             <li>
-                <a href="../html/designer.html" style="color: rgb(243,72,65)">DESIGNER</a>
+                <a href="../html/designer.html">DESIGNER</a>
             </li>
             <li>
                 <a href="../html/gallery.html">GALLERY</a>
@@ -32,7 +39,7 @@
                 <a href="../html/location.html">LOCATION</a>
             </li>
         </ul>
-
+    
     </nav>
 
     <div class="dtitle">
@@ -91,22 +98,67 @@
         </div>
     </div>
     
+    <!-- mobile -->
+
+    <div class="mcollection">
+
+        <div class="mtitle">
+            <div class="titlename">COLLECTION</div>
+            <div class="line"></div>
+        </div>
+
+        <div class="collectionimg">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+            <div class="six"></div>
+            <div class="seven"></div>
+            <div class="eight"></div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
     <footer>
     
         <div class="fcontent">
+            <div class="ftop">
+                <div class="fleft">
+                    <a>Contact Us</a>
+                    <a>F.A.Q</a>
+                    <a>Cookies Policy</a>
+                    <a>Privacy Policy</a>
+                </div>
+                <div class="fright">
+                    <img src="../img/fb.png">
+                    <img src="../img/ig.png">
+                    <img src="../img/tw.png">
+                </div>
+            </div>
     
-            本網站為緯育TibaMe前端設計工程師班第68期學員專題作品<br>
-            本平台僅供學習、展示之用。參考資源:Mighty Jaxx。<br>
-            若有侵權疑慮，您可以私訊
-            <a href="https://www.facebook.com/webindex/">TibaMe-前端設計工程師養成班</a>
-            ，後續會由專人協助處理
-    
+            <div class="fbottom">
+                本網站為緯育TibaMe前端設計工程師班第68期學員專題作品<br>
+                本平台僅供學習、展示之用。參考資源:Mighty Jaxx。<br>
+                若有侵權疑慮，您可以私訊
+                <a href="https://www.facebook.com/webindex/">TibaMe-前端設計工程師養成班</a>
+                ，後續會由專人協助處理
+            </div>
         </div>
     
     </footer>
+
     
 
-
+    <script src="../js/hamburger.js"></script>
     <script src="../js/designer1.js"></script>
 
     

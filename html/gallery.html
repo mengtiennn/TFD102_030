@@ -3,21 +3,28 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>TOYUTOPIA</title>
     <link rel="stylesheet" href="../css/gallery.css">
     <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/rwd-gallery.css">
     <link rel="stylesheet" href="../vendors/aos/css/aos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 </head>
 
 <body>
 
     <nav class="list">
         <a class="logo" href="../html/index.html"></a>
+        <div class="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
         <ul class="listselect">
             <li>
                 <a href="../html/news.html">NEWS</a>
@@ -26,7 +33,7 @@
                 <a href="../html/designer.html">DESIGNER</a>
             </li>
             <li>
-                <a href="../html/gallery.html" style="color: rgb(243,72,65)">GALLERY</a>
+                <a href="../html/gallery.html">GALLERY</a>
             </li>
             <li>
                 <a href="../html/selection.html">SELECTION</a>
@@ -37,11 +44,13 @@
         </ul>
 
     </nav>
+
+
     <div class="galleryimg">
 
         <div class="leftside">
-            <div class="twelve" data-aos="fade-right" data-aos-delay="200"></div>
-            <div class="thirteen" data-aos="fade-right" data-aos-delay="300"></div>
+            <div class="twelve"></div>
+            <div class="thirteen"></div>
             <div class="fourteen" data-aos="fade-right" data-aos-once="true"></div>
             <div class="fifteen" data-aos="fade-right" data-aos-once="true"></div>
             <div class="sixteen" data-aos="fade-up" data-aos-once="true"></div>
@@ -49,9 +58,9 @@
 
         <div class="rightside">
             <div class="one"></div>
-            <div class="two" data-aos="fade-left" data-aos-once="true" data-aos-delay="200"></div>
+            <div class="two"></div>
             <div class="three"></div>
-            <div class="four" data-aos="fade-left" data-aos-once="true"></div>
+            <div class="four"></div>
             <div class="five" data-aos="fade-left" data-aos-once="true"></div>
             <div class="six"  data-aos="fade-up" data-aos-once="true"></div>
             <div class="seven" data-aos="fade-up" data-aos-once="true"></div>
@@ -60,7 +69,39 @@
             <div class="ten" data-aos="fade-up" data-aos-once="true"></div>
             <div class="eleven"></div>
         </div>
+
+        <!-- rwd -->
+
+        <div class="rwdside">
+            <div class="rone"></div>
+            <div class="rtwo"></div>
+            <div class="rthree"></div>
+            <div class="rfour"></div>
+            <div class="rfive"></div>
+            <div class="rsix"></div>
+            <div class="rseven"></div>
+            <div class="reight"></div>
+            <div class="rnine"></div>
+            <div class="rten"></div>
+            <div class="releven"></div>
+            <div class="rtwelve"></div>
+            <div class="rthirteen"></div>
+            <div class="rfourteen"></div>
+            <!-- <div class="rfifteen">15</div>
+            <div class="rsixteen">16</div>
+            <div class="rseventeen">17</div>
+            <div class="reighteen">18</div>
+            <div class="rnineteen">19</div>
+            <div class="rtwenty">20</div>
+            <div class="rtwone">21</div>
+            <div class="rtwtwo">22</div> -->
+            <!-- <div class="rtwthree">23</div>
+            <div class="rtwfour">24</div> -->
+        </div>
+
     </div>
+
+    <!-- normal -->
 
     <div class="longcontent">
         
@@ -99,20 +140,138 @@
         </div>
     </div>
 
-    <footer>
-        <div class="fcontent">
-        
-            本網站為緯育TibaMe前端設計工程師班第68期學員專題作品<br>
-            本平台僅供學習、展示之用。參考資源:Mighty Jaxx。<br>
-            若有侵權疑慮，您可以私訊
-            <a href="https://www.facebook.com/webindex/">TibaMe-前端設計工程師養成班</a>
-            ，後續會由專人協助處理
-        
+    <!-- mobile -->
+    
+    <div class="mobanner">
+        <div class="toptitle">
+            <h1>GALLERY</h1>
         </div>
+    </div>
+    
+    
+    <div class="line"></div>
+    <div class="mogallery">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+        <div class="six"></div>
+        <div class="seven"></div>
+        <div class="eight"></div>
+        <div class="nine"></div>
+        <div class="ten"></div>
+        <div class="eleven"></div>
+        <div class="twelve"></div>
+        <div class="thirteen"></div>
+        <div class="fourteen"></div>
+    </div>
+
+
+
+
+    <!-- rwd -->
+
+    <div class="rwdlongcon">
+        <div class="rwdname">Photographer<br>MITCHEL WU</div>
+        <div class="rwdline"></div>
+        <div class="rwdcon">Based in Los Angeles, I create and craft stories through toy photography - capturing the illusion of motion and emotion
+        where none exists. I am committed to providing an unparalleled experience for my clients while creating images that
+        build brand awareness in a fun, engaging manner.</div>
+        <div class="rwdname">Photographer<br>CHARLES</div>
+        <div class="rwdline"></div>
+        <div class="rwdcon">I create art with toys. I started this journey purely by accident, but I believe, that I have found my true passion. I
+        have been shooting lifestyle and portrait photography for 10 years and also have 10 years of Adobe Photoshop and
+        Lightroom experience.</div>
+        <div class="rwdname">Photographer<br>MATTHEW</div>
+        <div class="rwdline"></div>
+        <div class="rwdcon">Callahan breathes life into the toys, much like children do when playing with their action figures. He not only
+        photographs the clone troopers in scenes reminiscent to his work in real life, but he gives them a voice through short
+        stories. Much like the stories of real men and women in combat, these fictitious troopers in a science fiction world,
+        are given brief vignettes detailing life as a soldier in their galaxy.</div>
+    </div>
+
+    
+
+
+
+
+    <footer>
+    
+        <div class="fcontent">
+            <div class="ftop">
+                <div class="fleft">
+                    <a>Contact Us</a>
+                    <a>F.A.Q</a>
+                    <a>Cookies Policy</a>
+                    <a>Privacy Policy</a>
+                </div>
+                <div class="fright">
+                    <img src="../img/fb.png">
+                    <img src="../img/ig.png">
+                    <img src="../img/tw.png">
+                </div>
+            </div>
+    
+            <div class="fbottom">
+                本網站為緯育TibaMe前端設計工程師班第68期學員專題作品<br>
+                本平台僅供學習、展示之用。參考資源:Mighty Jaxx。<br>
+                若有侵權疑慮，您可以私訊
+                <a href="https://www.facebook.com/webindex/">TibaMe-前端設計工程師養成班</a>
+                ，後續會由專人協助處理
+            </div>
+        </div>
+    
     </footer>
 
+    <script src="../js/hamburger.js"></script>
     <script src="../vendors/aos/js/aos.js"> </script>
     <script>AOS.init();</script>
+
+    <script>
+        
+        TweenMax.from('.one', 1 ,{
+            opacity: 0,
+            y: -50,
+            ease: Linear.easeInOut
+        })
+
+        TweenMax.from('.two', 1, {
+            opacity: 0,
+            x: 100,
+            delay: .5,
+            ease: Linear.easeInOut
+        })        
+
+        TweenMax.from('.four', 1, {
+            opacity: 0,
+            x: 100,
+            delay: .7,
+            ease: Linear.easeInOut
+        })              
+
+        TweenMax.from('.twelve', 1, {
+            opacity: 0,
+            x: -100,
+            delay: .5,
+            ease: Linear.easeInOut
+        })
+
+        TweenMax.from('.thirteen', 1, {
+            opacity: 0,
+            x: -100,
+            delay: .6,
+            ease: Linear.easeInOut
+        })
+
+        TweenMax.from('.three', 1, {
+            opacity: 0,
+            y: 100,
+            ease: Linear.easeInOut
+        })        
+    </script>
+
+
 </body>
 </html>
 

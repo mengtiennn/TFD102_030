@@ -12,17 +12,27 @@ nav.list{
     /* border: 1px solid yellow; */
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 9;
 }
 
 nav.list a.logo{
     /* border: 1px solid green; */
-    width: 80px;
-    height: 80px;
-    margin-left: 80px;
+    width: 60px;
+    height: 60px;
     background-image: url(../img/logow.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
+    position: relative;
+    top: 6%;
+    left: 5%;
+}
+
+nav.list ul.listselect{
+    overflow-y: hidden;
 }
 
 nav.list ul.listselect li{
@@ -42,6 +52,10 @@ nav.list ul.listselect li > a{
 
 }
 
+nav.list ul.listselect li:nth-child(3) > a{
+    color: rgb(243,72,65);
+}
+
 nav.list ul.listselect li:last-child{
     margin-right: 80px;
 }
@@ -55,7 +69,7 @@ div.galleryimg{
     display: flex;
     justify-content: center;
     /* border: 1px solid yellow; */
-    margin: 20px auto;
+    margin: 100px auto;
     background: transparent;
 }
 
@@ -197,7 +211,7 @@ div.leftside{
     background: transparent;
     width: 350px;
     height: 1600px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     margin-right: 5px;
     /* border: 1px solid darkorange; */
     display: grid;
@@ -276,16 +290,19 @@ div.leftside div.sixteen{
 
 div.longcontent{
     /* border: 1px solid yellow; */
+    background: transparent;
     width: 1000px;
     height: 1000px;
-    margin: -20px auto;
+    margin: -100px auto;
     display: flex;
     font-family: "Dosis";
 }
 
 div.longcontent div.leftcon{
+    /* border: 1px solid blue; */
+    background: transparent;
     border-right: 3px solid #EFEFEF;
-    width: 750px;
+    width: 714px;
     height: 980px;
     display: flex;
     flex-direction: column;
@@ -322,7 +339,7 @@ div.longcontent div.leftcon div.leftthree{
 
 div.longcontent div.rightcon{
     /* border: 1px solid green; */
-    width: 250px;
+    width: 276px;
     height: 900px;
     display: flex;
     flex-direction: column;
@@ -356,10 +373,23 @@ div.longcontent div.rightcon > div > div:last-child{
     color: #EFEFEF;
 }
 
+div.rwdlongcon{
+    display: none;
+}
+
+div.toptitle{
+    display: none;
+}
+
+
+/* footer */
+
 footer{
     width: 100%;
-    height: 100px;
-    background-color: #EFEFEF;
+    height: 200px;
+    background-color: #181818;
+    /* border-top: 1px solid gray; */
+    overflow-y: hidden;
 }
 
 footer .fcontent{
@@ -368,9 +398,51 @@ footer .fcontent{
     /* font-family: "Microsoft JhengHei"; */
     font-size: 10px;
     padding-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 footer a{
     background: transparent;
     text-decoration: none;
+    color: white;
+}
+
+footer .fcontent .ftop{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .fcontent .ftop .fleft{
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+    /* border: 1px solid blue; */
+}
+
+footer .fcontent .ftop .fright{
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+    /* border: 1px solid blue; */
+}
+
+footer .fcontent .ftop .fleft a{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: "Dosis";
+}
+
+footer .fcontent .ftop .fright img{
+    margin-left: 20px;
+}
+
+footer .fcontent .fbottom{
+    padding: 20px;
 }

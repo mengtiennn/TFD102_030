@@ -23,11 +23,13 @@ nav.list a.logo{
     /* border: 1px solid green; */
     width: 60px;
     height: 60px;
-    margin-left: 80px;
     background-image: url(../img/logow.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
+    position: relative;
+    top: 6%;
+    left: 5%;
 }
 
 nav.list ul.listselect{
@@ -75,6 +77,7 @@ div.mainbanner{
     grid-template-columns: 395px 395px 395px;
     grid-template-rows: 250px 250px 250px;
     overflow-y: hidden;
+    transition: all 1s;
 }
 
 div.mainbanner > div{
@@ -385,6 +388,7 @@ div.decontent1 div.right1 > div > div > button{
     height: 40px;
     font-size: 20px;
     border-radius: 5px;
+    overflow-x: hidden;
 }
 
 div.decontent1 div.right1 > div > div > button:hover{
@@ -791,10 +795,14 @@ div.mobileimg{
 
 
 
+/* footer */
+
 footer{
     width: 100%;
-    height: 100px;
-    background-color: #EFEFEF;
+    height: 200px;
+    background-color: #181818;
+    /* border-top: 1px solid gray; */
+    overflow-y: hidden;
 }
 
 footer .fcontent{
@@ -803,9 +811,51 @@ footer .fcontent{
     /* font-family: "Microsoft JhengHei"; */
     font-size: 10px;
     padding-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 footer a{
     background: transparent;
     text-decoration: none;
+    color: white;
+}
+
+footer .fcontent .ftop{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .fcontent .ftop .fleft{
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+    /* border: 1px solid blue; */
+}
+
+footer .fcontent .ftop .fright{
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+    /* border: 1px solid blue; */
+}
+
+footer .fcontent .ftop .fleft a{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: "Dosis";
+}
+
+footer .fcontent .ftop .fright img{
+    margin-left: 20px;
+}
+
+footer .fcontent .fbottom{
+    padding: 20px;
 }

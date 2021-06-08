@@ -1,0 +1,492 @@
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    
+    div.dtitle{
+        /* border: 1px solid yellow; */
+        width: 992px;
+    }
+
+    div.collection{
+        width: 992px;
+        /* border: 1px solid yellow; */
+    }
+
+    div.collection div.ctitle{
+        /* border: 1px solid orange; */
+        margin-left: 140px;
+        transform: translate(-360px, -100px);
+    }
+
+    div.collection div.slider{
+        /* border: 1px solid blue; */
+        width: 990px;
+        height: 300px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    /* nav hamburger */
+
+    nav.list{
+        position: relative;
+        position: fixed;
+    }
+
+
+    nav.list div.hamburger div.line{
+        width: 30px;
+        height: 3px;
+        background-color: #efefef;
+        margin: 5px;
+        transition: .5s ease-in;
+    }
+
+    nav.list div.hamburger{
+        position: absolute;
+        cursor: pointer;
+        top: 6%;
+        right: 5%;
+        transform: translate(-5%, -50%);
+        z-index: 11;
+        background: transparent;
+        position: fixed;
+    }
+
+
+    nav.list ul.listselect{
+        position: fixed;
+        background-color: rgb(243,72,65);
+        width: 100%;
+        height: 100vh;
+        margin-top: 0;
+        margin-left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 10;
+        /* display: none; */
+        clip-path: circle(100px at 90% -20%);
+        -webkit-clip-path: circle(100px at 90% -20%);
+        transition: all .6s ease-out;
+    }
+    
+    nav.list ul.listselect li{
+        background: transparent;
+        margin-top: 80px;
+        margin-left: 0;
+    }
+    
+    nav.list ul.listselect li:nth-child(2) > a{
+        color: #efefef;
+    }
+    
+    nav.list ul.listselect li > a:hover{
+        color: #efefef;
+    }
+
+    nav.list ul.listselect li:last-child{
+        margin-right: 0px;
+    }
+
+
+    nav.list ul.listselect.open{
+        clip-path: circle(1100px at 90% -20%);
+        -webkit-clip-path: circle(1100px at 90% -20%);
+        transition: .5s ease-in;
+    }
+
+    
+    nav.list div.hamburger div.line1.change{
+        transform: rotate(-45deg) translate(-5px, 6px);
+        transition: .5s ease-in;
+    }
+
+    nav.list div.hamburger div.line2.change{
+        opacity: 0;
+        transition: .5s ease-in;
+    }    
+
+    nav.list div.hamburger div.line3.change{
+        transform: rotate(45deg) translate(-5px, -6px);
+        transition: .5s ease-in;
+    }
+
+    div.dtitle{
+        /* border: 1px solid yellow; */
+        width: 768px;
+    }
+
+    div.collection{
+        width: 768px;
+        /* border: 1px solid yellow; */
+    }
+
+    div.collection div.ctitle{
+        /* border: 1px solid orange; */
+        margin-left: 140px;
+        transform: translate(-250px, -100px);
+    }
+
+    div.collection div.slider{
+        /* border: 1px solid blue; */
+        width: 768px;
+        height: 300px;
+    }
+
+    div.collection span{
+        right: 180px;
+    }
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    /* nav hamburger */
+
+    nav.list{
+        position: relative;
+        position: fixed;
+    }
+
+
+    nav.list div.hamburger div.line{
+        width: 30px;
+        height: 3px;
+        background-color: #efefef;
+        margin: 5px;
+        transition: .5s ease-in;
+    }
+
+    nav.list div.hamburger{
+        position: absolute;
+        cursor: pointer;
+        top: 6%;
+        right: 5%;
+        transform: translate(-5%, -50%);
+        z-index: 11;
+        background: transparent;
+        position: fixed;
+    }
+
+
+    nav.list ul.listselect{
+        position: fixed;
+        background-color: rgb(243,72,65);
+        width: 100%;
+        height: 100vh;
+        margin-top: 0;
+        margin-left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 10;
+        /* display: none; */
+        clip-path: circle(100px at 90% -20%);
+        -webkit-clip-path: circle(100px at 90% -20%);
+        transition: all .6s ease-out;
+    }
+    
+    nav.list ul.listselect li{
+        background: transparent;
+        margin-top: 80px;
+        margin-left: 0;
+    }
+    
+    nav.list ul.listselect li:nth-child(2) > a{
+        color: #efefef;
+    }
+    
+    nav.list ul.listselect li > a:hover{
+        color: #efefef;
+    }
+
+    nav.list ul.listselect li:last-child{
+        margin-right: 0px;
+    }
+
+
+    nav.list ul.listselect.open{
+        clip-path: circle(1100px at 90% -20%);
+        -webkit-clip-path: circle(1100px at 90% -20%);
+        transition: .5s ease-in;
+    }
+
+    
+    nav.list div.hamburger div.line1.change{
+        transform: rotate(-45deg) translate(-5px, 6px);
+        transition: .5s ease-in;
+    }
+
+    nav.list div.hamburger div.line2.change{
+        opacity: 0;
+        transition: .5s ease-in;
+    }    
+
+    nav.list div.hamburger div.line3.change{
+        transform: rotate(45deg) translate(-5px, -6px);
+        transition: .5s ease-in;
+    }
+
+
+    div.dtitle{
+        /* border: 1px solid yellow; */
+        width: 576px;
+    }
+
+    div.dcontent{
+        /* border: 1px solid blue; */
+        width: 250px;
+        justify-content: space-evenly;
+    }
+
+    div.dname{
+        /* border: 1px solid green; */
+        width: 250px;
+        font-size: 35px;
+        margin-top: 0px;
+    }
+
+    div.socialicon{
+        /* border: 1px solid pink; */
+        width: 250px;
+        transform: translateY(50px);
+    }
+
+    div.socialicon > a:first-child{
+        margin-left: 20px;
+    }
+
+    div.dimg{
+        /* border: 1px solid red; */
+        
+    }
+
+    div.about{
+        height: 400px;
+    }
+
+    div.about div.atitle{
+        /* border: 1px solid pink; */
+        width: 576px;
+    }
+
+    div.about div.acontent{
+        /* border: 1px solid pink; */
+        width: 576px;
+        height: 300px;
+        font-size: 18px;
+    }
+
+    div.collection{
+        width: 576px;
+        /* border: 1px solid yellow; */
+    }
+
+    div.collection div.ctitle{
+        /* border: 1px solid orange; */
+        margin-left: 140px;
+        transform: translate(-155px, -100px);
+    }
+
+    div.collection div.slider{
+        /* border: 1px solid blue; */
+        width: 576px;
+        height: 300px;
+    }
+
+    div.collection span{
+        right: 120px;
+    }
+
+}
+
+
+@media screen and (max-width: 575px){
+    /* nav hamburger */
+
+    nav.list{
+        position: relative;
+        position: fixed;
+    }
+
+
+    nav.list div.hamburger div.line{
+        width: 30px;
+        height: 3px;
+        background-color: #efefef;
+        margin: 5px;
+        transition: .5s ease-in;
+    }
+
+    nav.list div.hamburger{
+        position: absolute;
+        cursor: pointer;
+        top: 6%;
+        right: 5%;
+        transform: translate(-5%, -50%);
+        z-index: 11;
+        background: transparent;
+        position: fixed;
+    }
+
+
+    nav.list ul.listselect{
+        position: fixed;
+        background-color: rgb(243,72,65);
+        width: 100%;
+        height: 100vh;
+        margin-top: 0;
+        margin-left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 10;
+        /* display: none; */
+        clip-path: circle(100px at 90% -20%);
+        -webkit-clip-path: circle(100px at 90% -20%);
+        transition: all .6s ease-out;
+    }
+    
+    nav.list ul.listselect li{
+        background: transparent;
+        margin-top: 80px;
+        margin-left: 0;
+    }
+    
+    nav.list ul.listselect li:nth-child(2) > a{
+        color: #efefef;
+    }
+    
+    nav.list ul.listselect li > a:hover{
+        color: #efefef;
+    }
+
+    nav.list ul.listselect li:last-child{
+        margin-right: 0px;
+    }
+
+
+    nav.list ul.listselect.open{
+        clip-path: circle(1100px at 90% -20%);
+        -webkit-clip-path: circle(1100px at 90% -20%);
+        transition: .5s ease-in;
+    }
+
+    
+    nav.list div.hamburger div.line1.change{
+        transform: rotate(-45deg) translate(-5px, 6px);
+        transition: .5s ease-in;
+    }
+
+    nav.list div.hamburger div.line2.change{
+        opacity: 0;
+        transition: .5s ease-in;
+    }    
+
+    nav.list div.hamburger div.line3.change{
+        transform: rotate(45deg) translate(-5px, -6px);
+        transition: .5s ease-in;
+    }
+
+    div.dtitle{
+        /* border: 1px solid yellow; */
+        width: 350px;
+        height: 550px;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    div.dcontent{
+        /* border: 1px solid green; */
+        width: 350px;
+        height: 180px;
+        justify-content: start;
+    }
+
+    div.dname{
+        width: 350px;
+    }
+
+    div.socialicon{
+        width: 350px;
+    }
+
+    div.socialicon > a:first-child{
+        margin-left: 23px;
+    }
+
+    div.dimg{
+        /* border: 1px solid pink; */
+        margin-top: 20px;
+    }
+
+    div.about{
+        height: 450px;
+    }
+
+    div.about div.atitle{
+        /* border: 1px solid pink; */
+        width: 350px;
+    }
+
+    div.about div.acontent{
+        /* border: 1px solid pink; */
+        width: 350px;
+        height: 300px;
+        font-size: 18px;
+    }
+
+    div.collection{
+        display: none;
+    }
+
+    div.mcollection{
+        /* border: 1px solid pink; */
+        width: 350px;
+        height: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.mcollection div.mtitle{
+        /* border: 1px solid yellow; */
+        width: 350px;
+        height: 100px;
+    }
+
+    div.mcollection div.mtitle div.titlename{
+        width: 350px;
+        height: 60px;
+        /* border: 1px solid blue; */
+        font-family: "Anton";
+        color: rgb(243,72,65);
+        font-size: 40px;
+    }
+
+    div.mcollection div.mtitle div.line{
+        width: 100px;
+        height: 3px;
+        background-color: #efefef;
+        margin-top: 10px;
+    }
+
+
+    div.mcollection div.collectionimg{
+        /* border: 1px solid yellow; */
+        width: 350px;
+        height: 800px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 5px;
+    }
+
+
+
+}

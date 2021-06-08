@@ -1,0 +1,1171 @@
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    
+    div.indexvideo{
+        display: none;
+    }
+
+    div.mobanner{
+        width: 992px;
+        height: 600px;
+        border: 1px solid yellow;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.mobanner div.motitle{
+        width: 992px;
+        height: 250px;
+        border: 1px solid green;
+    }
+
+    div.mobanner div.pu{
+        border: 1px solid pink;
+    }
+
+    div.mobanner div.pu img{
+        width: 200px;
+        height: 200px;
+        /* border: 1px solid blue; */
+    }
+
+    div.mobanner div.pu img.pic1{
+        position: relative;
+        top: 90px;
+    }
+
+    div.mobanner div.pu img.pic2{
+        position: relative;
+        top: -40px;
+        right: 120px;
+        background: transparent;
+        z-index: 5;
+    }
+
+    div.mobanner div.pu img.pic3{
+        position: relative;
+        background: transparent;
+        right: 362px;
+        top: 120px;
+        width: 210px;
+        height: 210px;
+    }
+
+    div.mobanner div.pu img.pic4{
+        position: relative;
+        background: transparent;
+        right: 480px;
+        top: 130px;
+        width: 210px;
+        height: 210px;
+        z-index: 6;
+    }
+
+    div.mobanner2{
+        width: 992px;
+        height: 600px;
+        /* border: 1px solid yellow; */
+        display: flex;
+        margin: 0 auto;
+    }
+
+    div.mobanner2 div.moleft{
+        width: 400px;
+        /* border: 1px solid pink; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    div.mobanner2 div.moleft div.molefttitle{
+        font-family: "Anton";
+        font-size: 120px;
+        line-height: 120px;
+        color: rgb(243,72,65);
+        margin-right: 10px;
+    }
+
+    div.mobanner2 div.moleft div.moleftind{
+        font-family: "Dosis";
+        font-size: 16px;
+        color: white;
+        width: 250px;
+        margin-right: 60px;
+        margin-top: 10px;
+    }
+
+    div.mobanner2 div.moright{
+        width: 592px;
+        /* border: 1px solid green; */
+    }
+
+    div.mobanner2 div.moright video{
+        width: 592px;
+        margin-top: 100px;
+        opacity: .4;
+    }
+
+    div.downarrow{
+        margin-left: 52%;
+    }
+
+    a.news{
+        /* border: 1px solid blue; */
+        font-size: 110px;
+        line-height: 100px;
+    }
+
+    a.designer{
+        /* border: 1px solid blue; */
+        font-size: 110px;
+        line-height: 100px;
+    }
+
+    a.gallery{
+        /* border: 1px solid blue; */
+        font-size: 110px;
+        line-height: 100px;
+    }
+
+    a.selection{
+        /* border: 1px solid blue; */
+        font-size: 110px;
+        line-height: 100px;
+    }
+
+    a.location{
+        /* border: 1px solid blue; */
+        font-size: 110px;
+        line-height: 100px;
+    }
+
+    div.gridimg,div.gridimg2,div.gridimg3{
+        display: none;
+    }
+
+    div.navbg{
+        width: 100%; 
+        height: 600px;
+        /* border: 1px solid green; */
+        position: relative;
+        margin-top: -550px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: auto auto;
+
+    }
+    
+    div.navbg > div{
+        /* border: 1px solid yellow; */
+    }
+
+    div.navbg div.one{
+        background-image: url(../img/news/14.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        opacity: .3;
+    }
+
+    div.navbg div.six{
+        background-image: url(../img/1234.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        grid-area: 1 / 6 / 3 / 7;
+        margin-top: 120px;
+        opacity: .3;
+    }
+
+
+    div.navbg div.eight{
+        background-image: url(../img/news/35.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 60px;
+        opacity: .3;
+        
+    }
+
+    div.navbg2{
+        width: 100%; 
+        height: 600px;
+        /* border: 1px solid green; */
+        position: relative;
+        margin-top: -600px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+        background: transparent;
+    }
+
+    div.navbg2 > div{
+        /* border: 1px solid yellow; */
+        background: transparent;
+    }
+
+    div.navbg2 div.two2{
+        background-image: url(../img/product/1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 80px;
+        grid-area: 1 / 2 / 3 / 3;
+        opacity: .3;
+    }
+
+    div.navbg2 div.six6{
+        background-image: url(../img/product/66.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+        margin-left: 50px;
+        opacity: .3;
+    }
+
+
+
+    div.navbg2 div.ten10{
+        background-image: url(../img/product/jason\ freeny/23.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-right: 150px;
+        opacity: .3;
+    }
+
+    div.aboutus div.leftcon{
+        /* border: 1px solid yellow; */
+    }
+
+    div.int2{
+        /* border: 1px solid yellow; */
+        width: 400px;
+    }
+
+    div.aboutusimg{
+        /* border: 1px solid yellow;    */
+    }
+
+    div.newarrivals div.newarrivalshead{
+        /* border: 1px solid yellow; */
+    }
+
+    div.newvideo{
+        /* border: 1px solid yellow; */
+        width: 992px;
+        height: 550px;
+    }
+
+    div.newvideo video{
+        width: 496px;
+    }
+
+    div.newvideo div.videoind1{
+        width: 496px;
+    }
+
+    div.newvideo div.videoind2{
+        width: 496px;
+    }
+
+    section.productimg{
+        /* border: 1px solid yellow; */
+        width: 992px;
+    }
+
+    section.productimg div{
+        height: 450px;
+    }
+
+    div.designerbox{
+        /* border: 1px solid yellow; */
+        width: 992px;
+        grid-template-columns: 493px 493px;
+    }
+
+    div.designerbox div.rightbox{
+        grid-area: 3 / 1 / 5 / 3;
+        /* border: 1px solid pink; */
+        width: 992px;
+        height: 300px;
+        display: flex;
+    }
+
+    div.designerbox div.rightbox div.conone{
+        width: 248px;
+        background-repeat: no-repeat;
+    }
+
+    div.designerbox div.rightbox div.contwo{
+        width: 248px;
+        background-repeat: no-repeat;
+        margin-top: -25px;
+    }    
+
+    div.designerbox div.rightbox div.conthree{
+        width: 248px;
+        background-repeat: no-repeat;
+    }    
+
+    div.designerbox div.rightbox div.confour{
+        width: 248px;
+        background-repeat: no-repeat;
+        margin-top: -25px;
+        
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    
+    div.indexvideo{
+        display: none;
+    }
+
+    div.kawsphoto{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    div.kawsphoto img{
+        width: 100%;
+        opacity: .5;
+        position: relative;
+    }
+
+    div.kawsphoto div.moleft{
+        /* border: 1px solid yellow; */
+        width: 40%;
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        display: flex;
+        flex-direction: column;
+        background: transparent;
+    }
+
+    div.kawsphoto div.moleft div.molefttitle{
+        background: transparent;
+        font-family: "Anton";
+        width: 40%;
+        font-size: 14vw;
+        line-height: 14vw;
+        color: rgb(243,72,65);
+    }
+
+    div.kawsphoto div.moleft div.moleftind{
+        background: transparent;
+        font-family: "Dosis";
+        font-size: 2vw;
+        color: white;
+        width: 80%;
+        margin-right: 60px;
+        margin-top: 10px;
+    }
+
+    a.news{
+        /* border: 1px solid blue; */
+        font-size: 100px;
+        line-height: 90px;
+        margin-left: 45%;
+    }
+
+    a.designer{
+        /* border: 1px solid blue; */
+        font-size: 100px;
+        line-height: 90px;
+        margin-left: 45%;
+    }
+
+    a.gallery{
+        /* border: 1px solid blue; */
+        font-size: 100px;
+        line-height: 90px;
+        margin-left: 45%;
+    }
+
+    a.selection{
+        /* border: 1px solid blue; */
+        font-size: 100px;
+        line-height: 90px;
+        margin-left: 45%;
+    }
+
+    a.location{
+        /* border: 1px solid blue; */
+        font-size: 100px;
+        line-height: 90px;
+        margin-left: 45%;
+    }
+
+    div.gridimg,div.gridimg2,div.gridimg3{
+        display: none;
+    }
+
+    div.navbg{
+        width: 100%; 
+        height: 600px;
+        /* border: 1px solid green; */
+        position: relative;
+        margin-top: -550px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: auto auto;
+
+    }
+    
+    div.navbg > div{
+        /* border: 1px solid yellow; */
+    }
+
+    div.navbg div.one{
+        background-image: url(../img/news/14.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        opacity: .3;
+    }
+
+    div.navbg div.six{
+        background-image: url(../img/1234.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        grid-area: 1 / 6 / 3 / 7;
+        margin-top: 120px;
+        opacity: .3;
+    }
+
+
+    div.navbg div.eight{
+        background-image: url(../img/news/35.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 60px;
+        opacity: .3;
+        
+    }
+
+    div.navbg2{
+        width: 100%; 
+        height: 600px;
+        /* border: 1px solid green; */
+        position: relative;
+        margin-top: -600px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+        background: transparent;
+    }
+
+    div.navbg2 > div{
+        /* border: 1px solid yellow; */
+        background: transparent;
+    }
+
+    div.navbg2 div.two2{
+        background-image: url(../img/product/1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 80px;
+        grid-area: 1 / 2 / 3 / 3;
+        opacity: .3;
+    }
+
+    div.navbg2 div.six6{
+        background-image: url(../img/product/66.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+        margin-left: 50px;
+        opacity: .3;
+    }
+
+
+
+    div.navbg2 div.ten10{
+        background-image: url(../img/product/jason\ freeny/23.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-right: 150px;
+        opacity: .3;
+    }
+
+    
+    div.aboutus div.leftcon{
+        /* border: 1px solid yellow; */
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    div.int2{
+        /* border: 1px solid yellow; */
+        width: 350px;
+    }
+
+    div.aboutusimg{
+        /* border: 1px solid yellow; */
+        width: 400px;   
+    }
+
+    div.newvideo{
+        /* border: 1px solid yellow; */
+        width: 768px;
+        height: 450px;
+    }
+
+    div.newvideo video{
+        width: 384px;
+    }
+
+    div.newvideo div.videoind1{
+        width: 384px;
+    }
+
+    div.newvideo div.videoind2{
+        width: 384px;
+    }
+
+    div.newvideo div.videoind1 span{
+        font-size: 50px;
+    }
+
+    div.newvideo div.videoind2 span{
+        font-size: 50px;
+    }
+
+    section.productimg{
+        /* border: 1px solid yellow; */
+        width: 768px;
+    }
+
+    section.productimg div{
+        height: 400px;
+    }
+
+    div.designerbox{
+        /* border: 1px solid yellow; */
+        width: 768px;
+        grid-template-columns: 376px 376px;
+    }
+
+    div.designerbox div.rightbox{
+        grid-area: 3 / 1 / 5 / 3;
+        /* border: 1px solid pink; */
+        width: 768px;
+        height: 300px;
+        display: flex;
+    }
+
+    div.designerbox div.rightbox div.conone{
+        width: 248px;
+        background-repeat: no-repeat;
+    }
+
+    div.designerbox div.rightbox div.contwo{
+        width: 248px;
+        background-repeat: no-repeat;
+        margin-top: -55px;
+    }    
+
+    div.designerbox div.rightbox div.conthree{
+        width: 248px;
+        background-repeat: no-repeat;
+    }    
+
+    div.designerbox div.rightbox div.confour{
+        width: 248px;
+        background-repeat: no-repeat;
+        margin-top: -55px;
+        margin-right: 10px;
+        
+    }
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    div.indexvideo{
+        display: none;
+    }
+
+    div.kawsphoto{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    div.kawsphoto img{
+        width: 100%;
+        opacity: .5;
+        position: relative;
+    }
+
+    div.kawsphoto div.moleft{
+        /* border: 1px solid yellow; */
+        width: 40%;
+        position: absolute;
+        top: 18%;
+        left: 12%;
+        display: flex;
+        flex-direction: column;
+        background: transparent;
+    }
+
+    div.kawsphoto div.moleft div.molefttitle{
+        background: transparent;
+        font-family: "Anton";
+        width: 40%;
+        font-size: 14vw;
+        line-height: 14vw;
+        color: rgb(243,72,65);
+    }
+
+    div.kawsphoto div.moleft div.moleftind{
+        background: transparent;
+        font-family: "Dosis";
+        font-size: 2vw;
+        color: white;
+        width: 80%;
+        margin-right: 60px;
+        margin-top: 10px;
+    }
+
+    a.news{
+        /* border: 1px solid blue; */
+        font-size: 13vw;
+        line-height: 12vw;
+        margin-left: 45%;
+    }
+
+    a.designer{
+        /* border: 1px solid blue; */
+        font-size: 13vw;
+        line-height: 12vw;
+        margin-left: 45%;
+    }
+
+    a.gallery{
+        /* border: 1px solid blue; */
+        font-size: 13vw;      
+        line-height: 12vw;
+        margin-left: 45%;
+    }
+
+    a.selection{
+        /* border: 1px solid blue; */
+        font-size: 13vw;
+        line-height: 12vw;
+        margin-left: 45%;
+    }
+
+    a.location{
+        /* border: 1px solid blue; */
+        font-size: 13vw;
+        line-height: 12vw;
+        margin-left: 45%;
+    }
+
+    div.gridimg,div.gridimg2,div.gridimg3{
+        display: none;
+    }
+
+    div.downarrow{
+        margin-top: 0px;
+        margin-left: 60%;
+    }
+
+    div.navbg{
+        width: 100%; 
+        height: 500px;
+        /* border: 1px solid green; */
+        position: relative;
+        margin-top: -450px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: auto auto;
+
+    }
+    
+    div.navbg > div{
+        /* border: 1px solid yellow; */
+    }
+
+    div.navbg div.one{
+        background-image: url(../img/news/14.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        opacity: .3;
+    }
+
+    div.navbg div.six{
+        background-image: url(../img/1234.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        grid-area: 1 / 6 / 3 / 7;
+        margin-top: 120px;
+        opacity: .3;
+    }
+
+
+    div.navbg div.eight{
+        background-image: url(../img/news/35.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 60px;
+        opacity: .3;
+        
+    }
+
+    div.navbg2{
+        width: 100%; 
+        height: 600px;
+        /* border: 1px solid green; */
+        position: relative;
+        margin-top: -600px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+        background: transparent;
+    }
+
+    div.navbg2 > div{
+        /* border: 1px solid yellow; */
+        background: transparent;
+    }
+
+    div.navbg2 div.two2{
+        background-image: url(../img/product/1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+        grid-area: 1 / 2 / 3 / 3;
+        opacity: .3;
+    }
+
+    div.navbg2 div.six6{
+        background-image: url(../img/product/66.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+        margin-left: 50px;
+        opacity: .3;
+    }
+
+
+
+    div.navbg2 div.ten10{
+        background-image: url(../img/product/jason\ freeny/23.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-right: 150px;
+        opacity: .3;
+    }
+
+    div.aboutus{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.aboutus div.leftcon{
+        /* border: 1px solid yellow; */
+        margin-bottom: 0;
+    }
+
+    div.int1{
+        margin-top: 10px;
+        font-size: 6vw;
+        height: 20px;
+    }
+
+    div.int2{
+        /* border: 1px solid yellow; */
+        width: 400px;
+        height: 250px;
+        font-size: 3vw;
+        margin-top: 20px;
+    }
+
+    div.aboutusimg{
+        /* border: 1px solid yellow;    */
+    }
+
+    div.newarrivals{
+        /* border: 1px solid green; */
+        height: 300px;
+    }
+
+    div.newarrivals div.newimg{
+        /* border: 1px solid orange; */
+        height: 300px;
+    }
+
+    div.newarrivals div.newarrivalshead{
+        /* border: 1px solid red; */
+        font-size: 8vw;
+        width: 45%;
+        height: 100px;
+    }
+
+    div.newvideo{
+        width: 576px;
+        /* border: 1px solid orange; */
+        display: flex;
+        flex-direction: column;
+        height: 680px;
+    }
+
+    div.newvideo video{
+        width: 576px;
+        opacity: .4;
+    }
+
+    div.newvideo div.videoind1{
+        background: transparent;
+        width: 576px;
+        position: relative;
+        margin-top: -250px;
+    }
+
+    div.newvideo div.videoind2{
+        background: transparent;
+        width: 576px;
+        position: relative;
+        z-index: 5;
+    }
+
+    div.newvideo video.v2{
+        margin-top: -250px;
+    }
+
+    section.productimg{
+        width: 570px;
+    }
+
+    section.productimg div{
+        height: 400px;
+        /* border: 1px solid blue; */
+    }    
+
+    div.designerbox{
+        width: 570px;
+        grid-template-columns: 570px;
+        grid-template-rows: 145px 145px 145px 145px;
+    }
+
+    div.designerbox div.rightbox{
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (max-width: 575px){
+
+    div.indexvideo{
+        display: none;
+    }
+
+    div.kawsphoto2{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    div.kawsphoto2 img{
+        width: 100%;
+        opacity: .5;
+        position: relative;
+    }
+
+    div.kawsphoto2 div.moleft{
+        /* border: 1px solid yellow; */
+        width: 40%;
+        height: 400px;
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        display: flex;
+        flex-direction: column;
+        background: transparent;
+        justify-content: space-evenly;
+    }
+
+    div.kawsphoto2 div.moleft div.molefttitle{
+        background: transparent;
+        font-family: "Anton";
+        width: 40%;
+        font-size: 14vw;
+        line-height: 14vw;
+        color: rgb(243,72,65);
+    }
+
+    div.kawsphoto2 div.moleft div.moleftind{
+        background: transparent;
+        font-family: "Dosis";
+        font-size: 2vw;
+        color: white;
+        width: 80%;
+        margin-right: 60px;
+        margin-top: 10px;
+    }
+
+    div.downarrow{
+        margin-top: -60px;
+        margin-left: 58%;
+    }
+
+    a.news{
+        /* border: 1px solid blue; */
+        font-size: 13vw;
+        line-height: 12vw;
+        margin-left: 45%;
+    }
+
+    a.designer{
+        /* border: 1px solid blue; */
+        font-size: 13vw;
+        line-height: 12vw;
+        margin-left: 45%;
+    }
+
+    a.gallery{
+        /* border: 1px solid blue; */
+        font-size: 13vw;      
+        line-height: 12vw;
+        margin-left: 45%;
+    }
+
+    a.selection{
+        /* border: 1px solid blue; */
+        font-size: 13vw;
+        line-height: 12vw;
+        margin-left: 45%;
+    }
+
+    a.location{
+        /* border: 1px solid blue; */
+        font-size: 13vw;
+        line-height: 12vw;
+        margin-left: 45%;
+    }
+
+    div.gridimg,div.gridimg2,div.gridimg3{
+        display: none;
+    }
+
+    div.navbg{
+        width: 100%; 
+        height: 450px;
+        /* border: 1px solid green; */
+        position: relative;
+        margin-top: -350px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: auto auto;
+
+    }
+    
+    div.navbg > div{
+        /* border: 1px solid yellow; */
+    }
+
+    div.navbg div.one{
+        background-image: url(../img/news/14.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        opacity: .3;
+    }
+
+    div.navbg div.six{
+        background-image: url(../img/1234.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        grid-area: 1 / 6 / 3 / 7;
+        margin-top: 120px;
+        opacity: .3;
+    }
+
+
+    div.navbg div.eight{
+        background-image: url(../img/news/35.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 60px;
+        opacity: .3;
+        
+    }
+
+    div.navbg2{
+        width: 100%; 
+        height: 600px;
+        /* border: 1px solid green; */
+        position: relative;
+        margin-top: -600px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+        background: transparent;
+    }
+
+    div.navbg2 > div{
+        /* border: 1px solid yellow; */
+        background: transparent;
+    }
+
+    div.navbg2 div.two2{
+        background-image: url(../img/product/1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 300px;
+        grid-area: 1 / 2 / 3 / 3;
+        opacity: .3;
+    }
+
+    div.navbg2 div.six6{
+        background-image: url(../img/product/66.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+        margin-left: 50px;
+        opacity: .3;
+    }
+
+
+
+    div.navbg2 div.ten10{
+        background-image: url(../img/product/jason\ freeny/23.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        opacity: .3;
+    }
+
+    div.aboutus{
+        height: 600px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.aboutus div.leftcon{
+        width: 350px;
+        /* border: 1px solid yellow; */
+        margin-bottom: 0;
+    }
+
+    div.int1{
+        margin-top: 10px;
+        font-size: 6vw;
+        height: 20px;
+    }
+
+    div.int2{
+        /* border: 1px solid yellow; */
+        width: 350px;
+        height: 200px;
+        font-size: 3vw;
+        margin-top: 20px;
+    }
+
+    div.aboutusimg{
+        /* border: 1px solid yellow; */
+        width: 350px;   
+    }
+
+    div.aboutusimg{
+        /* border: 1px solid yellow;    */
+    }
+
+    div.newarrivals{
+        /* border: 1px solid green; */
+        height: 250px;
+    }
+
+    div.newarrivals div.newimg{
+        /* border: 1px solid orange; */
+        height: 250px;
+    }
+
+    div.newarrivals div.newarrivalshead{
+        /* border: 1px solid red; */
+        font-size: 8vw;
+        width: 45%;
+        height: 100px;
+    }
+
+    div.newvideo{
+        width: 350px;
+        /* border: 1px solid orange; */
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    div.newvideo video{
+        width: 350px;
+        opacity: .4;
+    }
+
+    div.newvideo div.videoind1{
+        background: transparent;
+        width: 350px;
+        position: relative;
+        margin-top: -180px;
+    }
+
+    div.newvideo div.videoind2{
+        background: transparent;
+        width: 350px;
+        position: relative;
+        z-index: 5;
+        margin-top: 100px;
+    }
+
+    div.newvideo video.v2{
+        margin-top: -160px;
+    }    
+
+    div.newvideo div.videoind1 span{
+        font-size: 10vw;
+    }
+
+    div.newvideo div.videoind2 span{
+        font-size: 10vw;
+    }
+
+    section.productimg{
+        width: 350px;
+    }
+
+    section.productimg div{
+        height: 300px;
+        /* border: 1px solid blue; */
+    }
+
+    section.productimg div > a.carousel-item{
+        width: 250px;
+    }
+
+    div.designertitle{
+        margin-top: 30px;
+    }
+
+    div.designerbox{
+        width: 350px;
+        grid-template-columns: 350px;
+        grid-template-rows: 145px 145px 145px 145px;
+    }
+
+    div.designerbox div.rightbox{
+        display: none;
+    }
+}

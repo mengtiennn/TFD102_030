@@ -11,7 +11,11 @@ hamburger.addEventListener("click", () => {
 
 
 hamburger.addEventListener("click", () => {
-    alinks[0].classList.toggle("change");
-    alinks[1].classList.toggle("change");
-    alinks[2].classList.toggle("change");
+    for(a = 0; a < 3 ;a++){
+        alinks[a].classList.toggle("change");
+    }
 });
+
+// alinks[0].classList.toggle("change");
+// alinks[1].classList.toggle("change");
+// alinks[2].classList.toggle("change");

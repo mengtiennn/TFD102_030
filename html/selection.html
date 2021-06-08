@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>TOYUTOPIA</title>
     <link rel="stylesheet" href="../css/selection.css">
     <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/rwd-selection.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,6 +17,11 @@
 <body>
     <nav class="list">
         <a class="logo" href="../html/index.html"></a>
+        <div class="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
         <ul class="listselect">
             <li>
                 <a href="../html/news.html">NEWS</a>
@@ -26,13 +33,13 @@
                 <a href="../html/gallery.html">GALLERY</a>
             </li>
             <li>
-                <a href="../html/selection.html" style="color: rgb(243,72,65)">SELECTION</a>
+                <a href="../html/selection.html">SELECTION</a>
             </li>
             <li>
                 <a href="../html/location.html">LOCATION</a>
             </li>
         </ul>
-
+    
     </nav>
 
     <!-- bannerimg -->
@@ -44,6 +51,27 @@
         <div class="pdimg4"></div>
         <div class="pdimg5"></div>
     </div>
+
+    <!-- rwd banner -->
+
+    <div class="carousel-container">
+        <button id="prevBtn"><img src="../img/newprev.svg"></button>
+        <button id="nextBtn"><img src="../img/newnext.svg"></button>
+        <div class="carousel-slide">
+            <img src="../img/product/selectbanner/15.png" id="lastClone" alt="">
+            <img src="../img/product/selectbanner/12.png" alt="">
+            <img src="../img/product/selectbanner/11.png" alt="">
+            <img src="../img/product/selectbanner/13.png" alt="">
+            <img src="../img/product/selectbanner/14.png" alt="">
+            <img src="../img/product/selectbanner/15.png" alt="">
+            <img src="../img/product/selectbanner/12.png" id="firstClone" alt="">
+        </div>
+    </div>
+
+
+
+
+
 
     <!-- 1 -->
 
@@ -62,7 +90,7 @@
             </div>
             <div class="toy">SESAME</div>
             <div class="much">$ 20.99</div>
-            <button>BUY NOW</button>
+            <button class="btn_modal">BUY NOW</button>
         </div>
         <div class="firprice2">
             <div class="name">
@@ -72,7 +100,7 @@
             </div>
             <div class="toy">STREET</div>
             <div class="much">$ 10.99</div>
-            <button>BUY NOW</button>
+            <button class="btn_modal">BUY NOW</button>
         </div>
         <div class="firprice3">
             <div class="name">
@@ -82,7 +110,7 @@
             </div>
             <div class="toy">XXRAY</div>
             <div class="much">$ 15.9</div>
-            <button>BUY NOW</button>
+            <button class="btn_modal">BUY NOW</button>
         </div>
     </div>
 
@@ -103,7 +131,7 @@
             </div>
             <div class="toy">Garfield</div>
             <div class="much">$ 23.25</div>
-            <button>BUY NOW</button>
+            <button class="btn_modal">BUY NOW</button>
         </div>
         <div class="firprice2">
             <div class="name">
@@ -113,7 +141,7 @@
             </div>
             <div class="toy">BOBBURBER</div>
             <div class="much">$ 20.99</div>
-            <button>BUY NOW</button>
+            <button class="btn_modal">BUY NOW</button>
         </div>
         <div class="firprice3">
             <div class="name">
@@ -123,7 +151,7 @@
             </div>
             <div class="toy">NOTRUST</div>
             <div class="much">$ 20.99</div>
-            <button>BUY NOW</button>
+            <button class="btn_modal">BUY NOW</button>
         </div>
     </div>
 
@@ -144,7 +172,7 @@
             </div>
             <div class="toy">HOPEMON</div>
             <div class="much">$ 23.5</div>
-            <button>BUY NOW</button>
+            <button class="btn_modal">BUY NOW</button>
         </div>
         <div class="firprice2">
             <div class="name">
@@ -154,7 +182,7 @@
             </div>
             <div class="toy">BBFBLUE</div>
             <div class="much">$ 25.99</div>
-            <button>BUY NOW</button>
+            <button class="btn_modal">BUY NOW</button>
         </div>
         <div class="firprice3">
             <div class="name">
@@ -164,7 +192,7 @@
             </div>
             <div class="toy">BBFLAMP</div>
             <div class="much">$ 10.99</div>
-            <button>BUY NOW</button>
+            <button class="btn_modal">BUY NOW</button>
         </div>
     </div>
 
@@ -185,7 +213,7 @@
             </div>
             <div class="toy">BBFLAMP</div>
             <div class="much">$ 24.99</div>
-            <button>BUY NOW</button>
+            <button class="btn_modal">BUY NOW</button>
         </div>
         <div class="firprice2">
             <div class="name">
@@ -195,7 +223,7 @@
             </div>
             <div class="toy">MARIOCRUSH</div>
             <div class="much">$ 15.5</div>
-            <button>BUY NOW</button>
+            <button class="btn_modal">BUY NOW</button>
         </div>
         <div class="firprice3">
             <div class="name">
@@ -205,43 +233,344 @@
             </div>
             <div class="toy">TAKASHI</div>
             <div class="much">$ 20.99</div>
-            <button>BUY NOW</button>
+            <button class="btn_modal">BUY NOW</button>
         </div>
     </div>
+
+
+    <!-- second mobile -->
+    
+    <div class="mobanner">
+        <div class="title">SELECTION</div>
+        <img src="../img/product/66.png">
+    </div>
+
+
+
+
+    <!-- first mobile -->
+
+    <!-- 1 -->
+    
+    <div class="mobimg1">
+        <div class="one1">
+            <img src="../img/product/selectimg/1.png">
+        </div>
+        <div class="one2">
+            <img src="../img/product/selectimg/2.png">
+        </div>
+    </div>
+
+
+    <div class="mobpri">
+
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    Brian Donnelly
+                </a>
+            </div>
+            <div class="m_toy">SESAME</div>
+            <div class="m_much">$ 20.99</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+    
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    JASON FREENY
+                </a>
+            </div>
+            <div class="m_toy">STREET</div>
+            <div class="m_much">$ 10.99</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+        
+    </div>
+
+    <!-- 2 -->
+
+    <div class="mobimg2">
+        <div class="one1">
+            <img src="../img/product/selectimg/3.png">
+        </div>
+        <div class="one2">
+            <img src="../img/product/selectimg/4.png">
+        </div>
+    </div>
+
+    <div class="mobpri">
+    
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    JASON FREENY
+                </a>
+            </div>
+            <div class="m_toy">XXRAY</div>
+            <div class="m_much">$ 15.9</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+    
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    JASON FREENY
+                </a>
+            </div>
+            <div class="m_toy">Garfield</div>
+            <div class="m_much">$ 23.25</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+    
+    </div>
+
+    <!-- 3 -->
+
+    <div class="mobimg3">
+        <div class="one1">
+            <img src="../img/product/selectimg/5.png">
+        </div>
+        <div class="one2">
+            <img src="../img/product/selectimg/6.png">
+        </div>
+    </div>
+    
+    <div class="mobpri">
+    
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    JASON FREENY
+                </a>
+            </div>
+            <div class="m_toy">BOBBURBER</div>
+            <div class="m_much">$ 20.99</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+    
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    JOSH DIVINE
+                </a>
+            </div>
+            <div class="m_toy">NOTRUST</div>
+            <div class="m_much">$ 20.99</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+    
+    </div>
+
+    <!-- 4 -->
+
+    <div class="mobimg4">
+        <div class="one1">
+            <img src="../img/product/selectimg/7.png">
+        </div>
+        <div class="one2">
+            <img src="../img/product/selectimg/8.png">
+        </div>
+    </div>
+    
+    <div class="mobpri">
+    
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    JOSH DIVINE
+                </a>
+            </div>
+            <div class="m_toy">HOPEMON</div>
+            <div class="m_much">$ 23.5</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+    
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    KAWS
+                </a>
+            </div>
+            <div class="m_toy">BBFLAMP</div>
+            <div class="m_much">$ 10.99</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+    
+    </div>
+
+    <!-- 5 -->
+
+    <div class="mobimg5">
+        <div class="one1">
+            <img src="../img/product/selectimg/9.png">
+        </div>
+        <div class="one2">
+            <img src="../img/product/selectimg/10.png">
+        </div>
+    </div>
+    
+    <div class="mobpri">
+    
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    KAWS
+                </a>
+            </div>
+            <div class="m_toy">BBFLAMP</div>
+            <div class="m_much">$ 24.99</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+    
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    KAWS
+                </a>
+            </div>
+            <div class="m_toy">BBFBLUE</div>
+            <div class="m_much">$ 15.99</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+    
+    </div>
+
+    <!-- 6 -->
+
+    <div class="mobimg6">
+        <div class="one1">
+            <img src="../img/product/selectimg/11.png">
+        </div>
+        <div class="one2">
+            <img src="../img/product/selectimg/12.png">
+        </div>
+    </div>
+    
+    <div class="mobpri">
+    
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    FOOLSPARADISE
+                </a>
+            </div>
+            <div class="m_toy">MARIOCRUSH</div>
+            <div class="m_much">$ 20.99</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+    
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    JASON FREENY
+                </a>
+            </div>
+            <div class="m_toy">TAKASHI</div>
+            <div class="m_much">$ 25.99</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+    
+    </div>
+
+    <!-- 7 -->
+
+    <div class="mobimg7">
+        <div class="one1">
+            <img src="../img/product/selectimg/13.png">
+        </div>
+        <div class="one2"></div>
+    </div>
+    
+    <div class="mobpri">
+    
+        <div class="part1">
+            <div class="m_name">
+                <a href="../html/designer-1.html">
+                    Brian Donnelly
+                </a>
+            </div>
+            <div class="m_toy">SESAME</div>
+            <div class="m_much">$ 20.99</div>
+            <button class="btn_modal">BUY NOW</button>
+        </div>
+    
+    </div>
+
+    <div class="overlay">
+        <article>
+            <button type="button" class="btn_modal_close"></button>
+            <div class="sidecontent">
+                <div class="sideleft">
+                    <img src="../img/product/selectimg/2.png">
+                </div>
+                <div class="sideright">
+                    <div class="nameToy">SESAME STREET XXRAY</div>
+                    <div class="linetoy"></div>
+                    <div class="conToy">Each tray comes with 12 individually and randomly packed blind boxes. To top it all off, the box set comes in a
+                    beautiful display case! Start collecting your favourite Sesame Street friends today!</div>
+                    <div class="priceToy">10.99 USD</div>
+                </div>
+            </div>
+            <button class="cart">ADD TO CART</button>
+        </article>
+    </div>
+
+
+
+
 
     <br>
     <br>
     <br>
     <footer>
-
+    
         <div class="fcontent">
-
-            本網站為緯育TibaMe前端設計工程師班第68期學員專題作品<br>
-            本平台僅供學習、展示之用。參考資源:Mighty Jaxx。<br>
-            若有侵權疑慮，您可以私訊
-            <a href="https://www.facebook.com/webindex/">TibaMe-前端設計工程師養成班</a>
-            ，後續會由專人協助處理
-
+            <div class="ftop">
+                <div class="fleft">
+                    <a>Contact Us</a>
+                    <a>F.A.Q</a>
+                    <a>Cookies Policy</a>
+                    <a>Privacy Policy</a>
+                </div>
+                <div class="fright">
+                    <img src="../img/fb.png">
+                    <img src="../img/ig.png">
+                    <img src="../img/tw.png">
+                </div>
+            </div>
+    
+            <div class="fbottom">
+                本網站為緯育TibaMe前端設計工程師班第68期學員專題作品<br>
+                本平台僅供學習、展示之用。參考資源:Mighty Jaxx。<br>
+                若有侵權疑慮，您可以私訊
+                <a href="https://www.facebook.com/webindex/">TibaMe-前端設計工程師養成班</a>
+                ，後續會由專人協助處理
+            </div>
         </div>
-
+    
     </footer>
 
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/hamburger.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/carouselslide.js"></script>
+
     <script>
+        $(function () {
 
-        // $(".productbanner").on("click", function (){
-        //     $(".pdimg1").css("animation-name", "bigger");
-        //     $(".pdimg1").css("animation-duration", ".1s");
-        //     $(".pdimg1").css("animation-fill-mode", "forwards");
-        //     $(".pdimg1").css("animation-timing-function", "linear");
-        //     $(".pdimg1").css("z-index", "10");
+            // 開啟 Modal 彈跳視窗
+            $("button.btn_modal").on("click", function () {
+                $("div.overlay").fadeIn();
+            });
 
-        //     // $("a").addClass("ani");
-        //     // $("a").removeClass("ani");
+            // 關閉 Modal
+            $("button.btn_modal_close").on("click", function () {
+                $("div.overlay").fadeOut();
+            });
 
-        // });
+            });
+
     </script>
 
 </body>

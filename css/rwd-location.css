@@ -1,0 +1,706 @@
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+    div.banner{
+        /* border: 1px solid yellow; */
+        width: 992px;
+    }
+
+    div.leftb{
+        /* border: 1px solid green; */
+        width: 300px;
+    }
+
+    div.rightb{
+        /* border: 1px solid blue; */
+        width: 300px;
+    }
+
+    div.mapimg{
+        /* border: 1px solid red; */
+        width: 392px;
+    }
+
+    div.shopcontent div.line1{
+        width: 60px;
+    }
+
+    div.shopcontent2{
+        /* border: 1px solid pink; */
+        margin-left: 50px;
+        transform: translateY(-40px);
+    }
+
+    div.shopcontent3 div.line3{
+        width: 80px;
+        right: 120px;
+        transform: rotate(320deg);
+    }
+
+    div.shopcontent4{
+        margin-left: 50px;
+    }
+
+    div.shopcontent4 div.line4{
+        width: 140px;
+        right: 170px;
+        bottom: 150px;
+    }
+
+    div.shop1{
+        /* border: 1px solid orange; */
+        width: 992px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    
+    /* nav hamburger */
+
+    nav.list{
+        position: relative;
+        position: fixed;
+    }
+
+
+    nav.list div.hamburger div.line{
+        width: 30px;
+        height: 3px;
+        background-color: #efefef;
+        margin: 5px;
+        transition: .5s ease-in;
+    }
+
+    nav.list div.hamburger{
+        position: absolute;
+        cursor: pointer;
+        top: 6%;
+        right: 5%;
+        transform: translate(-5%, -50%);
+        z-index: 11;
+        background: transparent;
+        position: fixed;
+    }
+
+
+    nav.list ul.listselect{
+        position: fixed;
+        background-color: rgb(243,72,65);
+        width: 100%;
+        height: 100vh;
+        margin-top: 0;
+        margin-left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 10;
+        /* display: none; */
+        clip-path: circle(100px at 90% -20%);
+        -webkit-clip-path: circle(100px at 90% -20%);
+        transition: all .6s ease-out;
+    }
+    
+    nav.list ul.listselect li{
+        background: transparent;
+        margin-top: 80px;
+        margin-left: 0;
+    }
+    
+    nav.list ul.listselect li:nth-child(5) > a{
+        color: #efefef;
+    }
+    
+    nav.list ul.listselect li > a:hover{
+        color: #efefef;
+    }
+
+    nav.list ul.listselect li:last-child{
+        margin-right: 0px;
+    }
+
+
+    nav.list ul.listselect.open{
+        clip-path: circle(1100px at 90% -20%);
+        -webkit-clip-path: circle(1100px at 90% -20%);
+        transition: .5s ease-in;
+    }
+
+    
+    nav.list div.hamburger div.line1.change{
+        transform: rotate(-45deg) translate(-5px, 6px);
+        transition: .5s ease-in;
+    }
+
+    nav.list div.hamburger div.line2.change{
+        opacity: 0;
+        transition: .5s ease-in;
+    }    
+
+    nav.list div.hamburger div.line3.change{
+        transform: rotate(45deg) translate(-5px, -6px);
+        transition: .5s ease-in;
+    }
+    
+    div.banner{
+        /* border: 1px solid yellow; */
+        width: 768px;
+    }
+
+    div.leftb{
+        display: none;
+    }
+
+    div.mapimg{
+        /* border: 1px solid red; */
+        width: 300px;
+        margin-left: 0;
+    }
+
+
+    div.rightb{
+        display: none;
+    }
+
+    div.banner div.mobilecon{
+        display: flex;
+        /* border: 1px solid pink; */
+        width: 468px;
+        height: 550px;
+        background: transparent;
+    }
+
+    div.banner div.mobilecon div.first{
+        /* border: 1px solid green; */
+        width: 234px;
+        height: 550px;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    div.banner div.mobilecon div.second{
+        /* border: 1px solid green; */
+        width: 234px;
+        height: 550px;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+
+
+    div.banner div.mobilecon div.first > div{
+        /* border: 1px solid blue; */
+        width: 234px;
+        height: 200px;
+        background: transparent;
+    }
+
+    div.banner div.mobilecon div.second > div{
+        /* border: 1px solid pink; */
+        width: 234px;
+        height: 200px;
+    }
+
+    div.banner div.mobilecon div.first div.one div.oneimg{
+        width: 200px;
+        height: 200px;
+        background: transparent;
+        background-image: url(../img/1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    div.banner div.mobilecon div.first div.one div.onename{
+        font-family: "Anton";
+        color: rgb(243,72,65);
+        background: transparent;
+        font-size: 25px;
+        transform: translateY(-75px);
+    }
+
+    div.banner div.mobilecon div.first div.one div.oneline{
+        width: 70px;
+        height: 2px;
+        background-color: rgb(243,72,65);
+        position: absolute;
+        top: 70px;
+        right: 240px;
+    }
+
+    div.banner div.mobilecon div.first div.two div.twoimg{
+        width: 200px;
+        height: 200px;
+        background: transparent;
+        background-image: url(../img/5.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+
+    div.banner div.mobilecon div.first div.two div.twoname{
+        font-family: "Anton";
+        color: rgb(243,72,65);
+        background: transparent;
+        font-size: 25px;
+        transform: translateY(-100px);
+        margin-left: 50px;
+    }
+
+    div.banner div.mobilecon div.first div.two div.twoline{
+        width: 60px;
+        height: 2px;
+        background-color: rgb(243,72,65);
+        position: absolute;
+        bottom: 50px;
+        right: 190px;
+    }
+
+    div.banner div.mobilecon div.second div.three div.threeimg{
+        width: 200px;
+        height: 200px;
+        background: transparent;
+        background-image: url(../img/3.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    div.banner div.mobilecon div.second div.three div.threename{
+        font-family: "Anton";
+        color: rgb(243,72,65);
+        background: transparent;
+        font-size: 25px;
+        transform: translateY(-85px);
+    }
+
+    div.banner div.mobilecon div.second div.three div.threeline{
+        width: 200px;
+        height: 2px;
+        background-color: rgb(243,72,65);
+        position: absolute;
+        top: 220px;
+        right: 240px;
+        transform: rotate(340deg);
+    }
+
+    div.banner div.mobilecon div.second div.four div.fourimg{
+        width: 200px;
+        height: 200px;
+        background: transparent;
+        background-image: url(../img/7.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    div.banner div.mobilecon div.second div.four div.fourname{
+        font-family: "Anton";
+        color: rgb(243,72,65);
+        background: transparent;
+        font-size: 25px;
+        transform: translateY(-65px);
+        margin-left: 20px;
+    }
+
+    div.banner div.mobilecon div.second div.four div.fourline{
+        width: 430px;
+        height: 2px;
+        background-color: rgb(243,72,65);
+        position: absolute;
+        bottom: 190px;
+        right: 220px;
+        transform: rotate(175deg);
+    }
+
+    div.banner div.mobilecon div.second div.four{
+        background: transparent;
+    }
+
+    div.shop1{
+        /* border: 1px solid orange; */
+        width: 768px;
+    }
+
+    div.shop1 div.shopint div.shopname{
+        width: 350px;   
+    }
+
+    div.shop1 div.shopint div.shopad{
+        width: 350px;
+        font-size: 16px;
+    }
+
+    div.shop1 div.shopint div.shopcon{
+        width: 350px;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    /* nav hamburger */
+
+    nav.list{
+        position: relative;
+        position: fixed;
+    }
+
+
+    nav.list div.hamburger div.line{
+        width: 30px;
+        height: 3px;
+        background-color: #efefef;
+        margin: 5px;
+        transition: .5s ease-in;
+    }
+
+    nav.list div.hamburger{
+        position: absolute;
+        cursor: pointer;
+        top: 6%;
+        right: 5%;
+        transform: translate(-5%, -50%);
+        z-index: 11;
+        background: transparent;
+        position: fixed;
+    }
+
+
+    nav.list ul.listselect{
+        position: fixed;
+        background-color: rgb(243,72,65);
+        width: 100%;
+        height: 100vh;
+        margin-top: 0;
+        margin-left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 10;
+        /* display: none; */
+        clip-path: circle(100px at 90% -20%);
+        -webkit-clip-path: circle(100px at 90% -20%);
+        transition: all .6s ease-out;
+    }
+    
+    nav.list ul.listselect li{
+        background: transparent;
+        margin-top: 80px;
+        margin-left: 0;
+    }
+    
+    nav.list ul.listselect li:nth-child(5) > a{
+        color: #efefef;
+    }
+    
+    nav.list ul.listselect li > a:hover{
+        color: #efefef;
+    }
+
+    nav.list ul.listselect li:last-child{
+        margin-right: 0px;
+    }
+
+
+    nav.list ul.listselect.open{
+        clip-path: circle(1100px at 90% -20%);
+        -webkit-clip-path: circle(1100px at 90% -20%);
+        transition: .5s ease-in;
+    }
+
+    
+    nav.list div.hamburger div.line1.change{
+        transform: rotate(-45deg) translate(-5px, 6px);
+        transition: .5s ease-in;
+    }
+
+    nav.list div.hamburger div.line2.change{
+        opacity: 0;
+        transition: .5s ease-in;
+    }    
+
+    nav.list div.hamburger div.line3.change{
+        transform: rotate(45deg) translate(-5px, -6px);
+        transition: .5s ease-in;
+    }
+
+    div.banner{
+        display: none;
+    }
+
+    div.outside{
+        /* border: 1px solid yellow; */
+        width: 576px;
+        height: 600px;
+        display: grid;
+        margin: 80px auto 0px auto;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+    }
+
+    div.outside > div{
+        /* border: 1px solid blue; */
+    }
+
+    div.outside div.ind1{
+        width: 300px;
+    }
+
+    div.outside div.ind1 img{
+        width: 100%;
+    }
+
+    div.outside div.ind2{
+        width: 276px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div.outside div.ind2 div.title{
+        color: rgb(243,72,65);
+        font-family: "Anton";
+        font-size: 80px;
+        /* margin-left: -60px; */
+        background: transparent;
+    }
+    
+    div.outside div.ind2 div.line{
+        width: 150px;
+        height: 3px;
+        /* margin-top: -40px; */
+        background-color: gray;
+    }
+
+
+    div.outside div.ind2 div.text{
+        color: #efefef;
+        font-family: "Dosis";
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+    div.shop1{
+        /* border: 1px solid orange; */
+        width: 576px;
+        flex-direction: column;
+        height: 500px;
+    }
+
+    div.shop1 div.shopint div.shopname{
+        width: 500px;   
+    }
+
+    div.shop1 div.shopint div.shopad{
+        width: 500px;
+        font-size: 16px;
+    }
+
+    div.shop1 div.shopint div.shopcon{
+        width: 500px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 575px){
+    /* nav hamburger */
+
+    nav.list{
+        position: relative;
+        position: fixed;
+    }
+
+
+    nav.list div.hamburger div.line{
+        width: 30px;
+        height: 3px;
+        background-color: #efefef;
+        margin: 5px;
+        transition: .5s ease-in;
+    }
+
+    nav.list div.hamburger{
+        position: absolute;
+        cursor: pointer;
+        top: 6%;
+        right: 5%;
+        transform: translate(-5%, -50%);
+        z-index: 11;
+        background: transparent;
+        position: fixed;
+    }
+
+
+    nav.list ul.listselect{
+        position: fixed;
+        background-color: rgb(243,72,65);
+        width: 100%;
+        height: 100vh;
+        margin-top: 0;
+        margin-left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 10;
+        /* display: none; */
+        clip-path: circle(100px at 90% -20%);
+        -webkit-clip-path: circle(100px at 90% -20%);
+        transition: all .6s ease-out;
+    }
+    
+    nav.list ul.listselect li{
+        background: transparent;
+        margin-top: 80px;
+        margin-left: 0;
+    }
+    
+    nav.list ul.listselect li:nth-child(5) > a{
+        color: #efefef;
+    }
+    
+    nav.list ul.listselect li > a:hover{
+        color: #efefef;
+    }
+
+    nav.list ul.listselect li:last-child{
+        margin-right: 0px;
+    }
+
+
+    nav.list ul.listselect.open{
+        clip-path: circle(1100px at 90% -20%);
+        -webkit-clip-path: circle(1100px at 90% -20%);
+        transition: .5s ease-in;
+    }
+
+    
+    nav.list div.hamburger div.line1.change{
+        transform: rotate(-45deg) translate(-5px, 6px);
+        transition: .5s ease-in;
+    }
+
+    nav.list div.hamburger div.line2.change{
+        opacity: 0;
+        transition: .5s ease-in;
+    }    
+
+    nav.list div.hamburger div.line3.change{
+        transform: rotate(45deg) translate(-5px, -6px);
+        transition: .5s ease-in;
+    }
+
+    div.banner{
+        display: none;
+    }
+
+    div.outside{
+        /* border: 1px solid yellow; */
+        width: 350px;
+        height: 600px;
+        display: block;
+        /* display: grid; */
+        margin: 80px auto 0px auto;
+        /* grid-template-columns: auto auto;
+        grid-template-rows: auto; */
+    }
+
+    div.outside > div{
+        /* border: 1px solid blue; */
+    }
+
+    div.outside div.ind1{
+        width: 350px;
+        position: relative;
+    }
+
+    div.outside div.ind1 img{
+        width: 100%;
+        opacity: .5;
+    }
+
+    div.outside div.ind2{
+        width: 276px;
+        background: transparent;
+        position: relative;
+        margin: -350px auto 0 auto;
+        /* z-index: 10; */
+    }
+
+    div.outside div.ind2 div.title{
+        color: rgb(243,72,65);
+        font-family: "Anton";
+        font-size: 80px;
+        /* margin-left: -60px; */
+        background: transparent;
+        -webkit-text-fill-color: rgb(243,72,65);
+        -webkit-text-stroke: 2px #efefef;
+    }
+    
+    div.outside div.ind2 div.line{
+        display: none;
+    }
+
+    div.outside div.ind2 div.text{
+        display: none;
+    }
+
+    div.shop1{
+        /* border: 1px solid orange; */
+        width: 350px;
+        flex-direction: column;
+        height: 500px;
+    }
+
+    div.shop1 div.shopint div.shopname{
+        width: 320px;   
+    }
+
+    div.shop1 div.shopint div.shopad{
+        width: 320px;
+        font-size: 14px;
+    }
+
+    div.shop1 div.shopint div.shopcon{
+        width: 320px;
+    }
+
+    div.shop1 div.shopimg{
+        width: 350px;
+    }
+
+    div.shop1 div.shopimg2{
+        width: 350px;
+        background-repeat: no-repeat;
+    }
+
+    div.shop1 div.shopimg3{
+        width: 350px;
+        background-repeat: no-repeat;
+    }
+
+    div.shop1 div.shopimg4{
+        width: 350px;
+    }
+
+    div.shop1 div.shopint{
+        width: 350px;
+    }
+
+
+
+}

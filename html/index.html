@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>TOYUTOPIA</title>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/rwd-index.css">
     <link rel="stylesheet" href="../vendors/aos/css/aos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -14,38 +16,94 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
         integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 </head>
 
 <body>
-    <!-- <nav class="list">
-        <ul class="listselect">
-            <li>
-                <a href="#" target="_blank">NEWS</a>
-            </li>
-            <li>
-                <a href="#" target="_blank">DESIGNER</a>
-            </li>
-            <li>
-                <a href="#" target="_blank">GALLERY</a>
-            </li>
-            <li>
-                <a href="#" target="_blank">SELECTION</a>
-            </li>
-            <li>
-                <a href="#" target="_blank">LOCATION</a>
-            </li>
-        </ul>
-
-    </nav> -->
 
     <div class="indexvideo">
-        <div class="titleleft">TOY</div>
-        <div class="titleright">
+        <div class="indextitle">
+            <div class="bigtitle">
+                TOY<br />
+                UTOPIA<br />
+            </div>
+            <div class="sintd">Present the quality, variety, and novelty of all amazing artists' crafts.</div>
+        </div>
+        <div class="videoblock">
+            <div class="part1">
+                <video class="vone" src="../video/finish.mp4" autoplay="true" muted="true" preload="auto" loop="true"></video>
+            </div>
+            <div class="part2">
+                <video class="vtwo" src="../video/finish.mp4" autoplay="true" muted="true" preload="auto" loop="true"></video>
+            </div>
+            <div class="part3"></div>
+            <div class="part5">
+                <video class="vthree" src="../video/finish.mp4" autoplay="true" muted="true" preload="auto" loop="true"></video>
+            </div>
+            <div class="part4"></div>
+        </div>
+    
+    </div>
+
+    <!-- rwd banner -->
+
+    <!-- <div class="mobanner">
+        <div class="motitle"></div>
+        <div class="pu">
+            <img class="pic1" src="../img/index/16.png">
+            <img class="pic2" src="../img/index/17.png">
+            <img class="pic3" src="../img/index/14.png">
+            <img class="pic4" src="../img/index/15.png">
+        </div>
+    </div> -->
+
+    <!-- rwd -->
+
+    <div class="mobanner2">
+        <div class="moleft">
+            <div class="molefttitle">
+                TOY<br>
+                UTOPIA<br>
+            </div>
+            <div class="moleftind">
+                Present the quality, variety, and novelty of all amazing artists' crafts.
+            </div>
+        </div>
+        <div class="moright">
             <video src="../video/finish.mp4" autoplay="true" muted="true" preload="auto" loop="true"></video>
-            <div class="ut">UTOPIA</div>
+        </div>
+    </div>
+
+    <!-- rwd2 -->
+
+    <div class="kawsphoto">
+        <img class="kawsp" src="../img/index/23.jpg">
+        <div class="moleft">
+            <div class="molefttitle">
+                TOY<br>
+                UTOPIA<br>
+            </div>
+            <div class="moleftind">
+                Present the quality, variety, and novelty of all amazing artists' crafts.
+            </div>
         </div>
 
+    </div>
+
+    <!-- rwd3 -->
+
+    <div class="kawsphoto2">
+        <img class="kawsp" src="../img/index/30.jpg">
+        <div class="moleft">
+            <div class="molefttitle">
+                TOY<br>
+                UTOPIA<br>
+            </div>
+            <div class="moleftind">
+                Present the quality, variety, and novelty of all amazing artists' crafts.
+            </div>
+        </div>
+    
     </div>
 
 
@@ -141,6 +199,40 @@
         <div class="griditem2" style="background-image: url(../img/grid2/4.png);background-repeat: no-repeat;"></div>
     </div>
 
+    <!-- navbg -->
+
+    <div class="navbg">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+        <div class="six"></div>
+        <div class="seven"></div>
+        <div class="eight"></div>
+        <div class="nine"></div>
+        <div class="ten"></div>
+        <div class="eleven"></div>
+    </div>
+
+    <div class="navbg2">
+        <div class="one1"></div>
+        <div class="two2"></div>
+        <div class="three3"></div>
+        <div class="four4"></div>
+        <div class="five5"></div>
+        <div class="six6"></div>
+        <div class="seven7"></div>
+        <div class="eight8"></div>
+        <div class="nine9"></div>
+        <div class="ten10"></div>
+        <div class="eleven11"></div>
+    </div>
+
+    <!-- -------- -->
+
+
+
     <div class="aboutus">
         <div class="leftcon" data-aos="fade-right">
             <div class="int1">ABOUT US</div>
@@ -171,11 +263,11 @@
             <span>Jeff Staple</span><br>
             <span>by DANIL YAD</span>
         </div>
-        <video src="../video/1.mp4" autoplay="true" muted="true" preload="auto" loop="true"></video>
+        <video class="v2" src="../video/1.mp4" autoplay="true" muted="true" preload="auto" loop="true"></video>
     </div>
 
     <div class="selectiontitle">
-        <a class="stitle">SELECTION</a>
+        <a class="stitle" href="../html/selection.html">SELECTION</a>
         <div class="line"></div>
     </div>
 
@@ -264,13 +356,27 @@
     <footer>
 
         <div class="fcontent">
-
-            本網站為緯育TibaMe前端設計工程師班第68期學員專題作品<br>
-            本平台僅供學習、展示之用。參考資源:Mighty Jaxx。<br>
-            若有侵權疑慮，您可以私訊
-            <a href="https://www.facebook.com/webindex/">TibaMe-前端設計工程師養成班</a>
-            ，後續會由專人協助處理
-
+            <div class="ftop">
+                <div class="fleft">
+                    <a>Contact Us</a>
+                    <a>F.A.Q</a>
+                    <a>Cookies Policy</a>
+                    <a>Privacy Policy</a>
+                </div>
+                <div class="fright">
+                    <img src="../img/fb.png">
+                    <img src="../img/ig.png">
+                    <img src="../img/tw.png">
+                </div>
+            </div>
+            
+            <div class="fbottom">
+                本網站為緯育TibaMe前端設計工程師班第68期學員專題作品<br>
+                本平台僅供學習、展示之用。參考資源:Mighty Jaxx。<br>
+                若有侵權疑慮，您可以私訊
+                <a href="https://www.facebook.com/webindex/">TibaMe-前端設計工程師養成班</a>
+                ，後續會由專人協助處理
+            </div>
         </div>
 
     </footer>
@@ -294,6 +400,121 @@
         })
 
     </script>
+
+    <script>
+        
+        TweenMax.to('.bigtitle', 1 ,{
+            width: "500px",
+            ease: Linear.easeInOut
+        });
+
+        TweenMax.from('.sintd', 1.5, {
+            opacity: 0,
+            x: -20,
+            ease: Expo.easeInOut
+        });        
+
+        TweenMax.from('.videoblock',.5,{
+            y: 200,
+            opacity: 0,
+            ease: Linear.easeInOut,
+            delay: .5
+        });
+
+        TweenMax.fromTo('.navbg .one', 5 ,{
+            y: 0
+        },{
+            y: 100,
+            repeat: -1,
+            yoyo: true,
+            ease: Linear.easeInOut
+        })
+
+        TweenMax.fromTo('.navbg .six', 5, {
+            y: 0
+        }, {
+            y: 50,
+            repeat: -1,
+            yoyo: true,
+            ease: Linear.easeInOut
+        })        
+
+        TweenMax.fromTo('.navbg .eight', 5, {
+            y: 0
+        }, {
+            y: 50,
+            repeat: -1,
+            yoyo: true,
+            ease: Linear.easeInOut
+        })
+
+        TweenMax.fromTo('.navbg2 .two2', 5, {
+            y: 0
+        }, {
+            y: 50,
+            repeat: -1,
+            yoyo: true,
+            ease: Linear.easeInOut
+        })
+
+        TweenMax.fromTo('.navbg2 .six6', 5, {
+            y: 0
+        }, {
+            y: 50,
+            repeat: -1,
+            yoyo: true,
+            ease: Linear.easeInOut
+        })
+    
+        TweenMax.fromTo('.navbg2 .ten10', 5, {
+            y: 0
+        }, {
+            y: 50,
+            repeat: -1,
+            yoyo: true,
+            ease: Linear.easeInOut
+        })
+
+        TweenMax.fromTo('.pic1',2,{
+            x:0
+        },{
+            x:60,
+            repeat: -1,
+            yoyo: true,
+            ease: Linear.easeInOut
+        })
+
+        TweenMax.fromTo('.pic2', 2, {
+            y: 0
+        }, {
+            y: 90,
+            repeat: -1,
+            yoyo: true,
+            ease: Linear.easeInOut
+        })
+
+
+        TweenMax.fromTo('.pic4', 2, {
+            x: 0
+        }, {
+            x: -60,
+            repeat: -1,
+            yoyo: true,
+            ease: Linear.easeInOut
+        })        
+
+        TweenMax.fromTo('.kawsp',5,{
+            scale:1
+        },{
+            scale:1.08,
+            repeat: -1,
+            yoyo: true,
+            ease: Linear.easeInOut
+        })
+
+    </script>
+
+
 
     <script src="../vendors/aos/js/aos.js"> </script>
     <script>AOS.init();</script>
