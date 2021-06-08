@@ -93,8 +93,8 @@
 
 
     nav.list ul.listselect.open{
-        clip-path: circle(1100px at 90% -20%);
-        -webkit-clip-path: circle(1100px at 90% -20%);
+        clip-path: circle(1500px at 90% -20%);
+        -webkit-clip-path: circle(1500px at 90% -20%);
         transition: .5s ease-in;
     }
 
@@ -210,8 +210,8 @@
 
 
     nav.list ul.listselect.open{
-        clip-path: circle(1100px at 90% -20%);
-        -webkit-clip-path: circle(1100px at 90% -20%);
+        clip-path: circle(1500px at 90% -20%);
+        -webkit-clip-path: circle(1500px at 90% -20%);
         transition: .5s ease-in;
     }
 
@@ -372,8 +372,8 @@
 
 
     nav.list ul.listselect.open{
-        clip-path: circle(1100px at 90% -20%);
-        -webkit-clip-path: circle(1100px at 90% -20%);
+        clip-path: circle(1500px at 90% -20%);
+        -webkit-clip-path: circle(1500px at 90% -20%);
         transition: .5s ease-in;
     }
 
