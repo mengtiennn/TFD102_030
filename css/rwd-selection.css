@@ -1208,6 +1208,11 @@
         width: 100%;
     }
 
-
+    div.overlay article div.sidecontent div.sideright div.conToy{
+    background: transparent;
+    font-family: "Dosis";
+    font-size: 12px;
+    color: gray;
+}
 
 }
